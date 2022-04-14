@@ -36,9 +36,9 @@
 }
 
 #sidebar {
-    min-width: 250px;
+        min-width: 250px;
     max-width: 250px;
-    background: #7386D5;
+    background: rgb(55 56 55 / 97%);
     color: #fff;
     transition: all 0.3s;
 }
