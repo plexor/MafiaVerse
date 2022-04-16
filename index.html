@@ -1,957 +1,1245 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="cache-control" content="no-cache" />
-    <link rel="shortcut icon" href="images/mvlogo.png" type="image/x-icon" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <title>Metaverse</title>
-    <meta name="keywords" content="Mafiaverse">
-    <meta
-      name="facebook-domain-verification"
-      content="p7oqc7frx5yqufs22mvb8twv09zjld"
-    />
-  
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-      rel="stylesheet"
-    />
-    <link href="css/owl.carousel.css" rel="stylesheet" />
-    <link href="css/animate.css" rel="stylesheet" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/style-latest.css" rel="stylesheet" />
-    <link href="css/responsive.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,700i,800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css"
-      rel="stylesheet"
-    />
-    <!-- Reddit Pixel -->
-    <script>
-      !(function (w, d) {
-        if (!w.rdt) {
-          var p = (w.rdt = function () {
-            p.sendEvent
-              ? p.sendEvent.apply(p, arguments)
-              : p.callQueue.push(arguments);
-          });
-          p.callQueue = [];
-          var t = d.createElement("script");
-          (t.src = "https://www.redditstatic.com/ads/pixel.js"), (t.async = !0);
-          var s = d.getElementsByTagName("script")[0];
-          s.parentNode.insertBefore(t, s);
-        }
-      })(window, document);
-      rdt("init", "t2_dyz20evj");
-      rdt("track", "PageVisit");
-    </script>
-    <!-- DO NOT MODIFY -->
-    <!-- End Reddit Pixel -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Collapsible sidebar using Bootstrap 4</title>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<link rel="shortcut icon" href="images/mvlogo.png" type="image/x-icon" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<title>Metaverse</title>
+	<meta name="keywords" content="Mafiaverse">
+	<meta name="facebook-domain-verification" content="p7oqc7frx5yqufs22mvb8twv09zjld" />
 
-    <!-- Bootstrap CSS CDN -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-      crossorigin="anonymous"
-    />
-    <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="style.css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+	<link href="css/owl.carousel.css" rel="stylesheet" />
+	<link href="css/animate.css" rel="stylesheet" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/style-latest.css" rel="stylesheet" />
+	<link href="css/responsive.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,700i,800&display=swap"
+		rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" rel="stylesheet" />
+	<!-- Reddit Pixel -->
+	<script>
+		!(function (w, d) {
+			if (!w.rdt) {
+				var p = (w.rdt = function () {
+					p.sendEvent
+						? p.sendEvent.apply(p, arguments)
+						: p.callQueue.push(arguments);
+				});
+				p.callQueue = [];
+				var t = d.createElement("script");
+				(t.src = "https://www.redditstatic.com/ads/pixel.js"), (t.async = !0);
+				var s = d.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(t, s);
+			}
+		})(window, document);
+		rdt("init", "t2_dyz20evj");
+		rdt("track", "PageVisit");
+	</script>
+	<!-- DO NOT MODIFY -->
+	<!-- End Reddit Pixel -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <!-- Font Awesome JS -->
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
-      integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
-      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+	<title>Collapsible sidebar using Bootstrap 4</title>
 
-  <body>
-    <div class="wrapper">
-      <!-- Sidebar  -->
-      <nav id="sidebar">
-        <div class="sidebar-header">
-          <h3>Bootstrap Sidebar</h3>
-        </div>
+	<!-- Bootstrap CSS CDN -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+		integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous" />
+	<!-- Our Custom CSS -->
+	<link rel="stylesheet" href="style.css" />
 
-        <ul class="list-unstyled components">
-          <p>Dummy Heading</p>
-          <li class="active">
-            <a
-              href="#homeSubmenu"
-              data-toggle="collapse"
-              aria-expanded="false"
-              class="dropdown-toggle"
-              >Home</a
-            >
-            <ul class="collapse list-unstyled" id="homeSubmenu">
-              <li>
-                <a href="#">Home 1</a>
-              </li>
-              <li>
-                <a href="#">Home 2</a>
-              </li>
-              <li>
-                <a href="#">Home 3</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a
-              href="#pageSubmenu"
-              data-toggle="collapse"
-              aria-expanded="false"
-              class="dropdown-toggle"
-              >Pages</a
-            >
-            <ul class="collapse list-unstyled" id="pageSubmenu">
-              <li>
-                <a href="#">Page 1</a>
-              </li>
-              <li>
-                <a href="#">Page 2</a>
-              </li>
-              <li>
-                <a href="#">Page 3</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Portfolio</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
+	<!-- Font Awesome JS -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+		integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+		crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+		integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+		crossorigin="anonymous"></script>
+</head>
 
-        <ul class="list-unstyled CTAs">
-          <li>
-            <a
-              href="https://bootstrapious.com/tutorial/files/sidebar.zip"
-              class="download"
-              >Download source</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://bootstrapious.com/p/bootstrap-sidebar"
-              class="article"
-              >Back to article</a
-            >
-          </li>
-        </ul>
-      </nav>
+<body>
+	<div class="wrapper">
+		<!-- Sidebar  -->
+		<nav id="sidebar">
+			<div class="sidebar-header">
+				<h3>Bootstrap Sidebar</h3>
+			</div>
 
-      <!-- Page Content  -->
-      <div id="content">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
-          <div class="container-fluid">
-            <button type="button" id="sidebarCollapse" class="btn btn-info">
-              <i class="fas fa-align-left"></i>
-              <span>Toggle Sidebar</span>
-            </button>
-            <button
-              class="btn btn-dark d-inline-block d-lg-none ml-auto"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i class="fas fa-align-justify"></i>
-            </button>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  Launch demo modal
-</button>
-		<section class="ftco-section">
+			<ul class="list-unstyled components">
+				<p>Dummy Heading</p>
+				<li class="active">
+					<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+					<ul class="collapse list-unstyled" id="homeSubmenu">
+						<li>
+							<a href="#">Home 1</a>
+						</li>
+						<li>
+							<a href="#">Home 2</a>
+						</li>
+						<li>
+							<a href="#">Home 3</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">About</a>
+				</li>
+				<li>
+					<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
+						class="dropdown-toggle">Pages</a>
+					<ul class="collapse list-unstyled" id="pageSubmenu">
+						<li>
+							<a href="#">Page 1</a>
+						</li>
+						<li>
+							<a href="#">Page 2</a>
+						</li>
+						<li>
+							<a href="#">Page 3</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Portfolio</a>
+				</li>
+				<li>
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+
+			<ul class="list-unstyled CTAs">
+				<li>
+					<a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
+				</li>
+				<li>
+					<a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Page Content  -->
+		<div id="content">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+				<div class="container-fluid">
+					<button type="button" id="sidebarCollapse" class="btn btn-info">
+						<i class="fas fa-align-left"></i>
+						<span>Toggle Sidebar</span>
+					</button>
+					<button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<i class="fas fa-align-justify"></i>
+					</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+						Launch demo modal
+					</button>
+					<section class="ftco-section">
+						<div class="container">
+							<div class="row justify-content-center js-fullheight">
+								<div class="col-md-6 text-center d-flex align-items-center">
+									<div class="wrap w-100">
+										<h2 class="mb-2">Modal 10</h2>
+										<button type="button" class="btn btn-primary py-3 px-4" data-toggle="modal"
+											data-target="#exampleModalCenter">
+											Launch Modal 10
+										</button>
+
+										<!-- Modal -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+						aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header img" style="background-image: url(images/bg-1.jpg);">
+									<button type="button" class="close d-flex align-items-center justify-content-center"
+										data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true" class="ion-ios-close"></span>
+									</button>
+								</div>
+								<div class="modal-body pt-md-0 pb-5 px-4 px-md-5 text-center">
+									<h2>Newsletter</h2>
+									<div class="icon d-flex align-items-center justify-content-center">
+										<img src="images/email.svg" alt="" class="img-fluid">
+									</div>
+									<h4 class="mb-2">Subscribe to our newsletter</h4>
+									<form action="#" class="subscribe-form">
+										<div class="form-group d-flex">
+											<input type="text" class="form-control rounded-left"
+												placeholder="Enter email address">
+											<input type="submit" value="Subscribe"
+												class="form-control submit px-3 rounded-right">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+						aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">×</span>
+									</button>
+								</div>
+								<div style="font-size: 12px; color: red;" class="modal-body">
+									<b>MAFIAVERSE WHITEPAPER</b>
+									<br>
+									<br>
+									<br>
+									<br>
+									Executive Summary
+									Game Overview
+									Play to Earn Quests
+									Roles+
+									NFTs Monetary System
+									In-Game Currency
+									In-Game Assets NFTs
+									Governance NFTs
+									Virtual Real Estate
+									Building a Business inside Mafiaverse
+									Secondary Activities
+									Casino
+									NFT Art Gallery
+									In-Game Asset Marketplace
+									Live Events
+									NFT collection
+									Why The Sandbox?
+									Rules
+
+
+
+
+
+
+
+
+
+
+
+
+									Executive Summary
+									Mafiaverse is an immersive blockchain-based action roleplay game centered around the
+									mafia lore of New York City in the 1930s. The game features a play-to-earn system in
+									a fast paced and engaging environment of structured factions or“mafia families”that
+									compete to be the best family in an array of fields, hence securing the most
+									profits. You as a Mafiaverse citizen will have the ability to influence the outcomes
+									of these conflicts while getting the opportunity to earn rewards for your
+									contributions.
+									This is all set in an open world filled with secondary activities (some non-related
+									to the main theme of the game), many of which will be player created, as anyone will
+									be able to purchase virtual real estate and create their own experiences or
+									businesses. This world will be built on lands of The Sandbox Metaverse.
+									The in-game currency is based on NFT bills and coins that are redeemed in the
+									in-game bank in exchange for SAND tokens. It will be used to exchange for goods and
+									services inside Mafiaverse. All in-game assets like avatars, clothing, weapons &
+									skins, etc will be NFTs which will be allowed to trade freely player to player, on
+									in-game exchanges or at 3rd party markets. Players will be able to earn them as
+									rewards too.
+									There will be periodic offerings of virtual real estate inside the game, this will
+									come in the form of NFT keys that will open specific properties across the map.
+									These will be minted initially and will later trade just like other in-game NFTs.
+									All of these elements are currently run on the Ethereum blockchain but will very
+									soon migrate to Polygon chain.
+
+
+
+
+
+
+									Game Overview
+									Over the past years the use of internet platforms and infrastructure for many
+									applications has grown exponentially fueling an immense growth in online
+									communities. So far members of these platforms have only been able to interact
+									through texts, images, or voice and call videos. The Metaverse is set to change this
+									marking the next level of the internet in terms of user interaction, governance,
+									privacy and ownership of digital assets
+									Thanks to the advances in blockchain technologies there exist a great opportunity
+									for the creation of immersive cutting-edge experiences with virtual economies that
+									can generate a lot of value through the following:
+									Non-Fungible Tokens (NFTs) have provided a secure and efficient way to transfer and
+									verify ownership of digital assets as well as validating authenticity. They are
+									essentially a cryptographic record of ownership encoded into a blockchain (with its
+									own metadata and identification codes).
+									Decentralized Autonomous Organizations (DAOs) allow for a trustful, more equitable
+									and efficient automated process for the management of an organization. Rules can be
+									written into code and executed automatically eliminating human error or malicious
+									manipulation, it can also reduce costs. The governance is decentralized and anyone
+									holding a small quantity of the token can get rewarded, make proposals which are
+									then voted, etc.
+									2.1 GAMEPLAY PILLARS
+									Unlike the vast majority of existing games, Mafiaverse provides the opportunity for
+									players to exchange their NFT assets earned in the mafia verse for FIAT currencies.
+									With an elaborate process that is molding into the current state of the development
+									of the sandbox metaverse, we are aiming to establish a layer-3 currency system into
+									our game experience once the sandbox game tool is advanced enough to do-so. The Goal
+									of the development team is to encourage monetizing the time people spends playing
+									games, and it is our most precious aim to emphasize this ability of monetization in
+									the shaping of the web3 metaverse that are yet to come. We believe this is the
+									future of the gaming industry, and we are here to proof it.
+									ROLES
+									In the Mafiaverse, every player will have an NFT badge that is given to the holders
+									of 8BM, this badge will enable you to identify with a role and unlock the specific
+									quests for your role. There are two major factions in the game; Police & Mafia.
+									The factions are naturally competing for the control of territories for generating
+									it’s income, the ownership of the territory will define the laws and taxation of
+									territories. While the police is a low-risk low-reward role, there’s still a defined
+									hierarchy that functions like a clan. The mafia must try to generate the most money
+									for their organization, controlling the territory comprising the casino for example,
+									will reward the faction that seized its control.
+
+
+									2.2 FEATURES
+									Stealing from other players:
+									Stealing from other players is only possible through ownership of properties, taking
+									control of a distillery that generates 1 bottle per hour is stealing from other
+									players
+									Territorial control:
+									Controling a neighbourhood will generate passive income to the faction that controls
+									it, to determine the ownership of a territory you need to control the main mafia
+									headquarter. If the mafia doesn’t control the map headquarter the police will get
+									rewarded
+									Quests : Every role will have their unique quests that will give a reward, also
+									there will be events and general quests for every player
+									Trading : The mafiaverse will have an intern economy based of weapons, clothing,
+									decoration, vehicles, consumables, traps & gear. Also people will be able to publish
+									their nft in the museum.
+									Gambling : From a casino to a boxing ring, there will be various games where people
+									can gamble, the current development of the casino is a fully operational roulette,
+									and a dice game blackjack player vs player.
+									Farming : You can produce your own products in your house to trade it in the bar or
+									the nightclub for NFT dollars.
+									Business : Control a business to gain 50% of it’s income
+									Staking (Late-stage of the game) : Store all your NFT dollars in the bank or
+									exchange them for VerseCoin
+									Governance : the groups that control buildings will have a vote in the council for
+									each building they control, the council will decide on the future of mafiaverse
+									Combat: There are different types of weapons in the game (Melee, Ranged,
+									conceivable, traps, throwables, consumables). Losing the combat will make you
+									respawn in the hospital with a timer to escape from it.
+									2.3 MAP
+									A map is distributed into 3 different floors, to hide the roof and the walls we will
+									cover them with an NFT that looks like a sky and a horizon that looks like a
+									neighboring city in the distance, there will also be an interactive cycle of day and
+									night.
+
+									Upper floor
+									Exteriors
+									PVP
+									Doors to buildings teleport you to the middle floor, for private buildings you need
+									a key to teleport
+									Middle floor
+									Interior of buildings
+									Quests
+									Non-Pvp
+									Lower floor (updated every month)
+									Game logic
+									Special quests
+									Special locations
+
+									2.4 Raiding
+									The guild system of Mafiaverse. The Universe of mafiaverse is expansive. It is a
+									challenge to overcome with your associates. Players are encouraged to create
+									factions, combine resources, and compete collectively to outsmart other players.
+									Neighborhoods are controlled by the group in charge, they decide on the laws and
+									taxation of the land. Careful strategic cooperation enables players to dominate
+									areas, and the businesses available therein. The Dollar NFT will serve a pivotal
+									role in these cities to enable play2earn mechanics.
+									To take claim of a building you must possess the key of the building to open the
+									door, this key will enable you to choose whether you shut or open the entrance for
+									public, every income of the building will be stored in a vault that needs
+									protection, if a raider enters the vault he can claim the benefits of the building
+									that were not yet claimed.
+
+
+
+									2.5 Locations
+									Every building in the game has a monetary value and a gameplay value, while the
+									gameplay value is easily describable, the economic value is yet to be defined
+									according to the development of the Sandbox.
+									Nightclub: This is a social hub aimed for meeting people and hosting events.
+									Prison: (located on lowest floor): A secondary world that is isolated from the rest,
+									accessible only if you get arrested, there are special quests and games to be
+									discovered here. Also it’s a claimable territory.
+									Beach: The sea sometimes hides mysterious boxes for fortune finders, you can also
+									test your luck by fishing in the deep seas.
+									Bar: In the bar you can expect to find fearsome mercenaries and meet rookies for
+									your group. Comedy shows and other games are expected in the bar.
+									Museum: Ever wanted to show your art to the world? By owning a 3d Mobster you can
+									expose your 3D art to the world and maybe there’s someone interested in buying it.
+									Marketplace: The marketplace is a trading hub where people can rent vending machine
+									spaces with NFT for sale, this can range from sandbox assets to a screenshotted
+									JPEG, so be careful!
+									Court: In the court there will be a monthly meeting with the most relevant members
+									of the mafiaverse community to decide on the future of mafiaverse, only the wisest
+									may enter the council.
+									Town Hall: This location helps newbies go around the mafiaverse, it is essentially a
+									place to get guidance on your steps around this game.
+									Bridge Quest: The Mafiaverse initial location is a secluded island surrounded by
+									bridges, in the near future we can expect to cross these bridges to new
+									neighborhoods, for the moment we are only building 4 out of 27 lands available for
+									the initial map.
+									Mafia HQ: The mafia HQ is an important building in the map, here the most fearsome
+									mobster will plot to take over the city, the only way to own the mafia HQ is by
+									owning the NFT key to the door. Being the Don is no easy task, expect to be taken
+									over by your most loyal men.
+									Police HQ: The Police HQ will be similarly owned by the NFT key holder, there will
+									be a jail to teleport people to the prison, the purpose of the mafia is to keep as
+									many mobsters inside the prison and not let them escape, if they take control over
+									the prison, they will take control over the police HQ, thus, over the neighborhood.
+									Residential: There will also be sellable real estate for other groups that want to
+									be independent of the two major factions, these can be mercenaries, traders, or even
+									secondary mafias.
+
+									Lighthouse: The lighthouse will reveal the location of points of interest in a
+									random basis.
+									Drug Laboratories: The manufacturing of drugs takes place in these laboratories,
+									it’s an important part of every city since drugs are the only way to boost your
+									stats in-game.
+									Other: Many more secondary land-marks and easter eggs will be added to the game,
+									join the mafia verse to find out!
+
+									Play to Earn Quests
+									There will be a wide array of quests that might or not be related to the main
+									theme/storyline of the game. Players will be able to earn rewards on some of these
+									quests if completed successfully. These quests will tend to have structured steps
+									after which you get a certain reward that you can exchange for something else. For
+									example, a given quest will consist of creating distilled alcohol (which was illegal
+									during prohibition in the early 20th century). Say you buy a wine producer, this
+									wine producer is worth 12 NFT dollars, it produces 1 barrel of wine every 4 hours,
+									every 5 barrels you can exchange them for 1 treasury bound. For every 6 treasury
+									bounds you get 1 NFT coin, every 2 coins you get 1 dollar.
+
+
+									this quest has a number of steps one needs to fulfill after which you get a
+									different object to use on the next step.
+									Roles
+
+									The godfather
+									- Founder/Leader of a mafia
+									- Part of the Player base elite commission
+									- The Cut committee (Splits profits within mafia members)
+									- Decides who has the power in their mafia
+									- The shadow of power, the puppeteer.
+									Don
+									- Leader Of a mafia
+									- Part of the player base elite commission
+									- Cut committee
+									- The undisputed leader of the family, gets a share of all the profits, makes all
+									the decisions.
+									Underboss
+									- Leader of mafia departments, making them coordinate
+									- Part of the general commission of their respective mafia
+									- Cut committee
+									- The second-in-command in the family and 'heir' to the throne. While the Don is
+									slightly relaxed and calm, the Underboss is brutal and straightforward, since he is
+									the man who gets the money to the Boss.
+
+									In some cases, he wielded enormous power and in some he wielded relatively much
+									less. Some Underbosses were trained to succeed the Don on the event of his death or
+									retirement. Consigliere
+									- Right Hand of the Leader
+									- A wise guy, the advisor
+									He acts like an adviser to the Don and is supposed to make impartial decisions based
+									upon fairness and for the good of the Mafia, rather than on personal vendettas. This
+									position is generally appointed by the Don but sometimes it is also elected by
+									members of the Mafia. The Consigliere also acts like the mouth of the Don often and
+									commands huge respect just like the Don
+
+									Capo
+									- Chief of a department
+									- In charge of making a department work well
+									- The family is split up into crews (in the DiMeo crime family there are eight),
+									each one with a respective leader. These are called Capos and are likely candidates
+									for the top three ranks. They run the show with their separate illegal
+									organizations.
+									A Capo is regarded to be successful only if he earns a huge amount of money for the
+									Mafia. He keeps some of his earnings and the rest are passed up to the Underboss and
+									ultimately the Don.
+									Soldier / Made man
+									- The best made mans of the mafia
+									Made men, official members of the family, earn the money to get to the Capos and
+									take part in physical interrogation and murders/assassination tasks.
+									- To become a made man or soldier you must commit a murder or several murders, you
+									must be full-blooded Italian, and you must be vouched for by at least two
+									high-ranking members of the crime family
+									Thug
+									- Often used for dirty work and mass murder
+									- An associate that has shown its trustworthiness
+									the ultimate enforcers of the Family who have proved themselves and command respect
+									from their fellow Mafioso. Thug's are the lowest Mafia members. They do all the
+									"dirty work" and as such are generally the ones arrested by the police.
+									Associate
+									- A friend of a friend, with interests of joining the mafia, only working
+									externally.
+									The lowest rank, unofficial members, also have to carry out physical tasks, wannabe
+									gangsters. Along with Soldiers, they make up crews.
+									Associates are not actual members of the mafia but are people involved with the
+									criminal enterprises. The Mafia works through them. They may be drug-dealers,
+									burglars, assassins, lawyers, or even police and politicians who are on the Mafia's
+									payroll.
+
+
+
+
+
+
+
+
+									NFTs Monetary System *once sandbox allows to do so
+									In-Game Currency
+									The in-game currency will be NFT dollars that will be exchanged at the bank at a
+									fixed rate against $SAND tokens. Decentral Bank of Mafiaverse will maintain this
+									peg.
+									Sand
+									NFT Dollars
+									1
+									10
+									5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									In-Game Assets NFTs
+									In-game assets will be traded in the form of NFTs both in-game and in secondary
+									markets. They will be minted and airdropped to players, especially following the
+									launch to get in-game assets circulating.
+									Governance NFTs
+									There will be game governance NFTs that will give voting rights for proposals about
+									the game and will yield passive income, a percentage of the game revenue.
+									Virtual Real Estate
+									There will be several offerings of virtual real estate inside our world. These will
+									be in the form of NFT keys. Players will be able to do whatever they want with their
+									properties.
+									Building a Business inside Mafiaverse
+									Thanks to the play-to-earn functionalities gamers can now monetize their playing
+									time, a conventional game role becomes a pseudojob inside Mafiaverse, organizations
+									can be created to capitalize on it more efficiently. This presents an opportunity to
+									create all sort of businesses in the metaverse. Additionally, virtual real estate
+									provides a powerful platform for brands to advertise and interact with its customers
+									in a more immersive way than social media or other channels. Combining these with
+									DAOs one gets all the necessary tools to start a “metabusiness”.
+									Secondary Activities
+									Casino
+									There will be betting venues across the map with slot machines, dice games, card
+									games, roulettes, etc. Some of these features will not be available in the early
+									stages as they might not be possible to implement as to an extent we depend on
+									guidance and features given by The Sandbox Developers
+									NFT Art Gallery
+									Since the appearance of NFTs people have been collecting digital art without having
+									hardly any channel to showcase them, let alone one specialized for them. Art
+									galleries across the map will give people the ability to showcase their digital art.
+									It will also act as auction house for those wanting to sell their NFTs.
+									Membership fee:
+
+									Auction house commission:
+									In-Game Asset Marketplace
+									The Sandbox empowers players by giving them the option to create in-game assets,
+									import them to the game and monetize them. Several marketplaces will be placed to
+									provide spaces for players to showcase and sell their assets. Mafiaverse intends to
+									promote a creators economy.
+									Live Events
+									The metaverse becomes a new and attractive communication channel between all sorts
+									of artists & creators and their followers. They can reach a much larger audience
+									than in a physical venue while vastly cutting costs. Its also a more interactive and
+									immersive channel than social media.
+
+
+
+
+
+									NFT collection
+									Mafiaverse is a mafia roleplay game 6 months into development in The Sandbox
+									metaverse.
+									The teams of both 8BitMafia and Mafiaverse have agreed to fully merge. The
+									collection will receive 50% of Mafiaverse net profit to holders of the EightBitMafia
+									collection, providing the NFTs with intrinsic value backed by revenue. Additionally,
+									the EightBitMafia team will receive 15% of the mafia profits to distribute among its
+									current members as they see fit while joining the team and management structure of
+									Mafiaverse. The remainder of the mint profits will go to a treasury where it will be
+									used to pay current Mafiaverse developers and fund the project onwards and to a
+									chest to fund community projects. The allocation can be found on a Google sheet and
+									was agreed by both parties.
+
+									HOW DOES THE COMMUNITY BENEFIT?
+
+									The two teams join forces towards an aligned goal, delivering 8-BitMafiaverse, an
+									immersive mafia roleplay experience with play-to-earn functionalities in The Sandbox
+									metaverse. Everyone will be able to experience a videogame with innovative game
+									mechanics & built on novel platforms. Anyone can become a participant, creator or
+									stakeholder in Mafiaverse. The NFT collection gains utility by backing it with
+									offering two tiers:
+
+									2D Portrait (4 rounds of 3333 units in different blockchains eachround): Grants you
+									access to 8-BitMafiaverse, VerseFi club membership, membership to metaverse
+									societies, access to events and raffles, whitelisted to all future collections.
+									(Current holders will be able to swap their current NFTs to the new ones).
+
+									3D Utility (3333 units): To acquire 3D you need to combine a 2D NFT with mom's
+									spaghetti (airdropped nft), you will then have an equal chance of receiving three
+									qualities for the 3D NFT.
+									Gold (25% benefits)
+									Silver (15% benefits)
+									Bronze (10% benefits)
+
+
+									Additional perks:
+									+ 5% Benefits will be allocated to a community chest for our holders to pitch their
+									projects!
+									+ A vote in the council, your word matters.
+									+ Access to special events both in the metaverse and in the real world
+									+ Access to the clubs in different metaverses
+									+ Whitelisted for future projects and collections
+									+ Airdrops of future $VERSE token
+									+ NFT staking for crypto rewards in $VERSE (At the late stage of VerseFi’s roadMap)
+									*Current holders of EightBitMafia NFTs will have to swap them for EightBitMafiaverse
+									NFTs. Visually they will be the same, this is just to migrate the collection to a
+									different smart contract to reflect the goals and agreement terms between the two
+									teams.
+
+									SMART CONTRACT
+
+									A new smart contract will be deployed for a new collection, current holders of
+									8bitmafia will be able to exchange their NFT for another one in the new collection.
+									The smart contract will be designed to redistribute 50% of the game’s net profit
+									amongst all the holders of 3D NFT’s, which will be able to claim by combining 3 2D
+									NFT. From every Ether of net profit generated at the 8-BitMafiaverse game:
+
+									50% : To 3D NFT holders
+									15% : To landowners
+									35% : To the devs team
+
+									*These figures do not include the initial NFT sales net profits as all its proceeds
+									will be use to pay the team and reinvest in capex, marketing and incorporation fees.
+
+									The game profit will consist of a sale of NFT keys to access real estate buildings,
+									and the profits generated by our businesses and the sale of the 3d assets in the
+									sandbox marketplace.
+
+
+
+
+
+
+
+
+
+
+
+
+
+									INFO ABOUT 8-BitMafiaverse
+
+									8-BitMafiaverse is an immersive blockchain-based action roleplay game centered
+									around the mafia lore of New York City in the 1930s. The game features a
+									play-to-earn system in a fast paced and engaging environment of structured factions
+									or“mafia families” that compete to be the best family in an array of fields, hence
+									securing the most profits. You as a 8-BitMafiaverse citizen will have the ability to
+									influence the outcomes of these conflicts while getting the opportunity to earn
+									rewards for your contributions.
+									This is all set in an open world filled with secondary activities (some non-related
+									to the main theme of the game), many of which will be player created, as anyone will
+									be able to purchase virtual real estate and create their own experiences or
+									businesses. This world will be built on lands of The Sandbox Metaverse.
+									The in-game currency is based on NFT currency (bills and coins) that are redeemed in
+									the in-game bank in exchange for SAND tokens. It will be used to exchange goods and
+									services inside 8-BitMafiaverse. All in-game assets like avatars, clothing, weapons
+									& skins, etc will be NFTs which will be allowed to trade freely peer-to-peer, on
+									in-game exchanges or at 3rd party markets. Players will be able to earn them as
+									rewards too.
+									DISCORD AND SOCIAL MEDIA FUSION
+
+									Mafiaverse social media accounts will be changed to VerseFi and exclusively managed
+									by them (the company behind the metaverse game).
+
+									Eightbitmafia accounts will switch name to 8-BitMafiaverse and will cooperate with
+									VerseFi team to make the social media grow, these social media accounts will be
+									accessible by the Founders of both teams and respective social media manager. This
+									will ensure a good cooperation and range of content and activity for the accounts.
+
+
+
+									Why the Sandbox
+									We believe The Sandbox among all blockchain metaverses to be the most marketable one
+									as it has the lowest system requirements to run the client. This means it has the
+									lowest barrier of entry for new players, hence having the most potential for long
+									term user growth. Additionally, The Sandbox is by far the blockchain metaverse
+									receiving the most media coverage as many partnerships have been occurring in the
+									past few months some of them with big multinational corporations like Warner Bros
+									Music, PricewaterhouseCoopers, South China Morning Post, and more. These not only
+									cause money to flow into the metaverse but also legitimize the project, it proves
+									there is interest from key players in several industries to interact with customers
+									in a new and innovative way.
+									Rules
+
+									We do not condone the development or promotion of any sort of scam or multi-layer
+									marketing schemes, players attempting these techniques will be permanently banned
+									from Mafiaverse.
+
+
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-primary">Save changes</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="nav navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Page</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Page</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Page</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Page</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
 			<div class="container">
-				<div class="row justify-content-center js-fullheight">
-					<div class="col-md-6 text-center d-flex align-items-center">
-						<div class="wrap w-100">
-							<h2 class="mb-2">Modal 10</h2>
-							<button type="button" class="btn btn-primary py-3 px-4" data-toggle="modal" data-target="#exampleModalCenter">
-							  Launch Modal 10
-							</button>
-
-							<!-- Modal -->
+				<div class="slider_inner row">
+					<div class="col-sm-6">
+						<div class="slider_contact">
+							<h2 class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+								<span style="text-transform: uppercase">COMING SOON! UPCOMING NFT SALE!</span>
+							</h2>
+							<h4>The MafiaVerse</h4>
+							<p class="wow fadeInUp" data-wow-duration="600ms" data-wow-delay="800ms">
+								<span>The MafiaVerse.</span>MafiaVerse In The
+								SandBox<span>Join!</span>!
+							</p>
+							<p class="wow fadeInUp" data-wow-duration="600ms" data-wow-delay="800ms">
+								The team has been assembled by recruiting through several
+								platforms: connections of the founders, physical posters on
+								strategic places like universities or libraries, announcements
+								on LinkedIn, Twitter, Instragram, etc. Also, a lot of our
+								members came directly from The Sandbox Official Discord. Here
+								is where we also met and started building a relationship with
+								our virtual landlords. It is worth noting that despite this
+								phase being mostly done, the team is constantly changing, and
+								we are still recruiting in areas like web 3.0 and marketing.
+								The team is diverse and multi-national, we have members in
+								Spain, United Kingdom, United States, Switzerland, The
+								Netherlands, Colombia, Argentina, Costa Rica, India, Australia
+								and probably some other we are forgetting.<br /><br /><span></span>Strategic
+								Partnerships with other relevant ventures to either
+								delegate certain areas of the project or to enjoy a mutual
+								benefit of some sort like visibility We are close to making a
+								deal with TJB Digital Services (a UK based website &
+								positioning services) for them to make our website, provide
+								hosting services, etc We are in talks with NFT MarketPlace and
+								Nights (UK based too) as they proposed a merger between the
+								projects. This could create a lot of value for both of us as
+								the projects are intimately related by nature as well as
+								providing us with some cash flow as they have raised some seed
+								money already (70k GBP valuation according to their latest
+								funding round).
+							</p>
+							<div class="social_banner text-left">
+								<a href="https://discord.gg/" target="_blank"><img src="images/discord.png"
+										class="img-responsive" />
+									Join Us</a><a href="https://twitter.com/" target="_blank"><img
+										src="images/twitter.png" class="img-responsive" />
+									Follow Us</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-		
-		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		  <div class="modal-dialog modal-dialog-centered" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header img" style="background-image: url(images/bg-1.jpg);">
-		        <button type="button" class="close d-flex align-items-center justify-content-center" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true" class="ion-ios-close"></span>
-		        </button>
-		      </div>
-		      <div class="modal-body pt-md-0 pb-5 px-4 px-md-5 text-center">
-		      	<h2>Newsletter</h2>
-		      	<div class="icon d-flex align-items-center justify-content-center">
-		      		<img src="images/email.svg" alt="" class="img-fluid">
-		      	</div>
-		      	<h4 class="mb-2">Subscribe to our newsletter</h4>
-		      	<form action="#" class="subscribe-form">
-              <div class="form-group d-flex">
-                <input type="text" class="form-control rounded-left" placeholder="Enter email address">
-                <input type="submit" value="Subscribe" class="form-control submit px-3 rounded-right">
-              </div>
-            </form>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">×</span>
-        </button>
-      </div>
-      <div style="font-size: 12px; color: red;"class="modal-body">
-        <b>MAFIAVERSE WHITEPAPER</b>
-<br>
-<br>
-<br>
-<br>
-Executive Summary
-Game Overview
-Play to Earn Quests
-Roles+
-NFTs Monetary System
-In-Game Currency
-In-Game Assets NFTs
-Governance NFTs
-Virtual Real Estate	
-Building a Business inside Mafiaverse
-Secondary Activities
-Casino
-NFT Art Gallery
-In-Game Asset Marketplace
-Live Events
-NFT collection
-Why The Sandbox?
-Rules
-
-
-
-
-
-
-
-
-
-
-
-
-Executive Summary
-Mafiaverse is an immersive blockchain-based action roleplay game centered around the mafia lore of New York City in the 1930s. The game features a play-to-earn system in a fast paced and engaging environment of structured factions or“mafia families”that compete to be the best family in an array of fields, hence securing the most profits. You as a Mafiaverse citizen will have the ability to influence the outcomes of these conflicts while getting the opportunity to earn rewards for your contributions. 
-This is all set in an open world filled with secondary activities (some non-related to the main theme of the game), many of which will be player created, as anyone will be able to purchase virtual real estate and create their own experiences or businesses. This world will be built on lands of The Sandbox Metaverse. 
-The in-game currency is based on NFT bills and coins that are redeemed in the in-game bank in exchange for SAND tokens. It will be used to exchange for goods and services inside Mafiaverse. All in-game assets like avatars, clothing, weapons & skins, etc will be NFTs which will be allowed to trade freely player to player, on in-game exchanges or at 3rd party markets. Players will be able to earn them as rewards too.
-There will be periodic offerings of virtual real estate inside the game, this will come in the form of NFT keys that will open specific properties across the map. These will be minted initially and will later trade just like other in-game NFTs.
-All of these elements are currently run on the Ethereum blockchain but will very soon migrate to Polygon chain.
-
-
-
-
-
-
-Game Overview
-Over the past years the use of internet platforms and infrastructure for many applications has grown exponentially fueling an immense growth in online communities. So far members of these platforms have only been able to interact through texts, images, or voice and call videos. The Metaverse is set to change this marking the next level of the internet in terms of user interaction, governance, privacy and ownership of digital assets
-Thanks to the advances in blockchain technologies there exist a great opportunity for the creation of immersive cutting-edge experiences with virtual economies that can generate a lot of value through the following:
-Non-Fungible Tokens (NFTs) have provided a secure and efficient way to transfer and verify ownership of digital assets as well as validating authenticity. They are essentially a cryptographic record of ownership encoded into a blockchain (with its own metadata and identification codes).
-Decentralized Autonomous Organizations (DAOs) allow for a trustful, more equitable and efficient automated process for the management of an organization. Rules can be written into code and executed automatically eliminating human error or malicious manipulation, it can also reduce costs. The governance is decentralized and anyone holding a small quantity of the token can get rewarded, make proposals which are then voted, etc.
-2.1 GAMEPLAY PILLARS
-Unlike the vast majority of existing games, Mafiaverse provides the opportunity for players to exchange their NFT assets earned in the mafia verse for FIAT currencies. With an elaborate process that is molding into the current state of the development of the sandbox metaverse, we are aiming to establish a layer-3 currency system into our game experience once the sandbox game tool is advanced enough to do-so. The Goal of the development team is to encourage monetizing the time people spends playing games, and it is our most precious aim to emphasize this ability of monetization in the shaping of the web3 metaverse that are yet to come. We believe this is the future of the gaming industry, and we are here to proof it.
-ROLES
-In the Mafiaverse, every player will have an NFT badge that is given to the holders of 8BM, this badge will enable you to identify with a role and unlock the specific quests for your role. There are two major factions in the game; Police & Mafia. 
-The factions are naturally competing for the control of territories for generating it’s income, the ownership of the territory will define the laws and taxation of territories. While the police is a low-risk low-reward role, there’s still a defined hierarchy that functions like a clan. The mafia must try to generate the most money for their organization, controlling the territory comprising the casino for example, will reward the faction that seized its control.
-
-
-2.2 FEATURES
-Stealing from other players:
-Stealing from other players is only possible through ownership of properties, taking control of a distillery that generates 1 bottle per hour is stealing from other players
-Territorial control:
-Controling a neighbourhood will generate passive income to the faction that controls it, to determine the ownership of a territory you need to control the main mafia headquarter. If the mafia doesn’t control the map headquarter the police will get rewarded
-Quests : Every role will have their unique quests that will give a reward, also there will be events and general quests for every player
-Trading : The mafiaverse will have an intern economy based of weapons, clothing, decoration, vehicles, consumables, traps & gear. Also people will be able to publish their nft in the museum.
-Gambling : From a casino to a boxing ring, there will be various games where people can gamble, the current development of the casino is a fully operational roulette, and a dice game blackjack player vs player. 
-Farming : You can produce your own products in your house to trade it in the bar or the nightclub for NFT dollars.
-Business : Control a business to gain 50% of it’s income
-Staking (Late-stage of the game) : Store all your NFT dollars in the bank or exchange them for VerseCoin
-Governance : the groups that control buildings will have a vote in the council for each building they control, the council will decide on the future of mafiaverse
-Combat: There are different types of weapons in the game (Melee, Ranged, conceivable, traps, throwables, consumables). Losing the combat will make you respawn in the hospital with a timer to escape from it.
-2.3 MAP
-A map is distributed into 3 different floors, to hide the roof and the walls we will cover them with an NFT that looks like a sky and a horizon that looks like a neighboring city in the distance, there will also be an interactive cycle of day and night.
-
-Upper floor
-Exteriors
-PVP 
-Doors to buildings teleport you to the middle floor, for private buildings you need a key to teleport
-Middle floor
-Interior of buildings
-Quests
-Non-Pvp 
-Lower floor (updated every month)
-Game logic
-Special quests
-Special locations 
 
-2.4 Raiding
-The guild system of Mafiaverse. The Universe of mafiaverse is expansive. It is a challenge to overcome with your associates. Players are encouraged to create factions, combine resources, and compete collectively to outsmart other players. Neighborhoods are controlled by the group in charge, they decide on the laws and taxation of the land. Careful strategic cooperation enables players to dominate areas, and the businesses available therein. The Dollar NFT will serve a pivotal role in these cities to enable play2earn mechanics.
-To take claim of a building you must possess the key of the building to open the door, this key will enable you to choose whether you shut or open the entrance for public, every income of the building will be stored in a vault that needs protection, if a raider enters the vault he can claim the benefits of the building that were not yet claimed.
 
 
-
-2.5 Locations 
-Every building in the game has a monetary value and a gameplay value, while the gameplay value is easily describable, the economic value is yet to be defined according to the development of the Sandbox.
-Nightclub: This is a social hub aimed for meeting people and hosting events. 
-Prison: (located on lowest floor): A secondary world that is isolated from the rest, accessible only if you get arrested, there are special quests and games to be discovered here. Also it’s a claimable territory.
-Beach: The sea sometimes hides mysterious boxes for fortune finders, you can also test your luck by fishing in the deep seas.
-Bar: In the bar you can expect to find fearsome mercenaries and meet rookies for your group. Comedy shows and other games are expected in the bar. 
-Museum: Ever wanted to show your art to the world? By owning a 3d Mobster you can expose your 3D art to the world and maybe there’s someone interested in buying it. 
-Marketplace: The marketplace is a trading hub where people can rent vending machine spaces with NFT for sale, this can range from sandbox assets to a screenshotted JPEG, so be careful!
-Court: In the court there will be a monthly meeting with the most relevant members of the mafiaverse community to decide on the future of mafiaverse, only the wisest may enter the council. 
-Town Hall: This location helps newbies go around the mafiaverse, it is essentially a place to get guidance on your steps around this game. 
-Bridge Quest: The Mafiaverse initial location is a secluded island surrounded by bridges, in the near future we can expect to cross these bridges to new neighborhoods, for the moment we are only building 4 out of 27 lands available for the initial map.
-Mafia HQ: The mafia HQ is an important building in the map, here the most fearsome mobster will plot to take over the city, the only way to own the mafia HQ is by owning the NFT key to the door. Being the Don is no easy task, expect to be taken over by your most loyal men.
-Police HQ:  The Police HQ will be similarly owned by the NFT key holder, there will be a jail to teleport people to the prison, the purpose of the mafia is to keep as many mobsters inside the prison and not let them escape, if they take control over the prison, they will take control over the police HQ, thus, over the neighborhood.
-Residential: There will also be sellable real estate for other groups that want to be independent of the two major factions, these can be mercenaries, traders, or even secondary mafias.
-
-Lighthouse: The lighthouse will reveal the location of points of interest in a random basis. 
-Drug Laboratories: The manufacturing of drugs takes place in these laboratories, it’s an important part of every city since drugs are the only way to boost your stats in-game.
-Other: Many more secondary land-marks and easter eggs will be added to the game, join the mafia verse to find out!
-
-Play to Earn Quests
-There will be a wide array of quests that might or not be related to the main theme/storyline of the game. Players will be able to earn rewards on some of these quests if completed successfully. These quests will tend to have structured steps after which you get a certain reward that you can exchange for something else. For example, a given quest will consist of creating distilled alcohol (which was illegal during prohibition in the early 20th century). Say you buy a wine producer, this wine producer is worth 12 NFT dollars, it produces 1 barrel of wine every 4 hours, every 5 barrels you can exchange them for 1 treasury bound. For every 6 treasury bounds you get 1 NFT coin, every 2 coins you get 1 dollar. 
-
-
- this quest has a number of steps one needs to fulfill after which you get a different object to use on the next step.
-Roles
-
-The godfather
-- Founder/Leader of a mafia 
-- Part of the Player base elite commission
-- The Cut committee (Splits profits within mafia members)
-- Decides who has the power in their mafia
-- The shadow of power, the puppeteer.
-Don
-- Leader Of a mafia
-- Part of the player base elite commission
-- Cut committee
-- The undisputed leader of the family, gets a share of all the profits, makes all the decisions. 
-Underboss
-- Leader of mafia departments, making them coordinate
-- Part of the general commission of their respective mafia
-- Cut committee
-- The second-in-command in the family and 'heir' to the throne. While the Don is slightly relaxed and calm, the Underboss is brutal and straightforward, since he is the man who gets the money to the Boss.
-
-In some cases, he wielded enormous power and in some he wielded relatively much less. Some Underbosses were trained to succeed the Don on the event of his death or retirement. Consigliere
-- Right Hand of the Leader
-- A wise guy, the advisor
-He acts like an adviser to the Don and is supposed to make impartial decisions based upon fairness and for the good of the Mafia, rather than on personal vendettas. This position is generally appointed by the Don but sometimes it is also elected by members of the Mafia. The Consigliere also acts like the mouth of the Don often and commands huge respect just like the Don
-
-Capo 
-- Chief of a department
-- In charge of making a department work well
-- The family is split up into crews (in the DiMeo crime family there are eight), each one with a respective leader. These are called Capos and are likely candidates for the top three ranks. They run the show with their separate illegal organizations.
-A Capo is regarded to be successful only if he earns a huge amount of money for the Mafia. He keeps some of his earnings and the rest are passed up to the Underboss and ultimately the Don.
-Soldier / Made man
-- The best made mans of the mafia
-Made men, official members of the family, earn the money to get to the Capos and take part in physical interrogation and murders/assassination tasks.
-- To become a made man or soldier you must commit a murder or several murders, you must be full-blooded Italian, and you must be vouched for by at least two high-ranking members of the crime family
-Thug 
-- Often used for dirty work and mass murder
-- An associate that has shown its trustworthiness
-the ultimate enforcers of the Family who have proved themselves and command respect from their fellow Mafioso. Thug's are the lowest Mafia members. They do all the "dirty work" and as such are generally the ones arrested by the police.
-Associate 
-- A friend of a friend, with interests of joining the mafia, only working externally.
-The lowest rank, unofficial members, also have to carry out physical tasks, wannabe gangsters. Along with Soldiers, they make up crews.
-Associates are not actual members of the  mafia but are people involved with the criminal enterprises. The Mafia works through them. They may be drug-dealers, burglars, assassins, lawyers, or even police and politicians who are on the Mafia's payroll.
-
-
-
-
-
-
-
-
-NFTs Monetary System *once sandbox allows to do so
-In-Game Currency
-The in-game currency will be NFT dollars that will be exchanged at the bank at a fixed rate against $SAND tokens. Decentral Bank of Mafiaverse will maintain this peg.
-Sand
-NFT Dollars
-1
-10
-5
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-In-Game Assets NFTs
-In-game assets will be traded in the form of NFTs both in-game and in secondary markets. They will be minted and airdropped to players, especially following the launch to get in-game assets circulating.
-Governance NFTs
-There will be game governance NFTs that will give voting rights for proposals about the game and will yield passive income, a percentage of the game revenue. 
-Virtual Real Estate	
-There will be several offerings of virtual real estate inside our world. These will be in the form of NFT keys. Players will be able to do whatever they want with their properties. 
-Building a Business inside Mafiaverse
-Thanks to the play-to-earn functionalities gamers can now monetize their playing time, a conventional game role becomes a pseudojob inside Mafiaverse, organizations can be created to capitalize on it more efficiently. This presents an opportunity to create all sort of businesses in the metaverse. Additionally, virtual real estate provides a powerful platform for brands to advertise and interact with its customers in a more immersive way than social media or other channels. Combining these with DAOs one gets all the necessary tools to start a “metabusiness”.
-Secondary Activities
-Casino
-There will be betting venues across the map with slot machines, dice games, card games, roulettes, etc. Some of these features will not be available in the early stages as they might not be possible to implement as to an extent we depend on guidance and features given by The Sandbox Developers
-NFT Art Gallery
-Since the appearance of NFTs people have been collecting digital art without having hardly any channel to showcase them, let alone one specialized for them. Art galleries across the map will give people the ability to showcase their digital art. It will also act as auction house for those wanting to sell their NFTs.
-Membership fee: 
-
-Auction house commission:
-In-Game Asset Marketplace
-The Sandbox empowers players by giving them the option to create in-game assets, import them to the game and monetize them. Several marketplaces will be placed to provide spaces for players to showcase and sell their assets. Mafiaverse intends to promote a creators economy.
-Live Events
-The metaverse becomes a new and attractive communication channel between all sorts of artists & creators and their followers. They can reach a much larger audience than in a physical venue while vastly cutting costs. Its also a more interactive and immersive channel than social media.  
-
-
-
-
-
-NFT collection
-Mafiaverse is a mafia roleplay game 6 months into development in The Sandbox metaverse. 
-The teams of both 8BitMafia and Mafiaverse have agreed to fully merge. The collection will receive 50% of Mafiaverse net profit to holders of the EightBitMafia collection, providing the NFTs with intrinsic value backed by revenue. Additionally, the EightBitMafia team will receive 15% of the mafia profits to distribute among its current members as they see fit while joining the team and management structure of Mafiaverse. The remainder of the mint profits will go to a treasury where it will be used to pay current Mafiaverse developers and fund the project onwards and to a chest to fund community projects. The allocation can be found on a Google sheet and was agreed by both parties.
-
-HOW DOES THE COMMUNITY BENEFIT?
-
-The two teams join forces towards an aligned goal, delivering 8-BitMafiaverse, an immersive mafia roleplay experience with play-to-earn functionalities in The Sandbox metaverse. Everyone will be able to experience a videogame with innovative game mechanics & built on novel platforms. Anyone can become a participant, creator or stakeholder in Mafiaverse. The NFT collection gains utility by backing it with offering two tiers:
-
-2D Portrait (4 rounds of 3333 units in different blockchains eachround): Grants you access to 8-BitMafiaverse, VerseFi club membership, membership to metaverse societies, access to events and raffles, whitelisted to all future collections. (Current holders will be able to swap their current NFTs to the new ones).
-
-3D Utility (3333 units):  To acquire 3D you need to combine a 2D NFT with mom's spaghetti (airdropped nft), you will then have an equal chance of receiving three qualities for the 3D NFT.
-                 Gold (25% benefits) 
-                 Silver (15% benefits)
-                 Bronze (10% benefits)
-
-
-Additional perks:
-+ 5% Benefits will be allocated to a community chest for our holders to pitch their projects!
-+ A vote in the council, your word matters.
-+ Access to special events both in the metaverse and in the real world
-+ Access to the clubs in different metaverses 
-+ Whitelisted for future projects and collections 
-+ Airdrops of future $VERSE token
-+ NFT staking for crypto rewards in $VERSE (At the late stage of VerseFi’s roadMap)
-*Current holders of EightBitMafia NFTs will have to swap them for EightBitMafiaverse NFTs. Visually they will be the same, this is just to migrate the collection to a different smart contract to reflect the goals and agreement terms between the two teams.
-
-SMART CONTRACT
-
-A new smart contract will be deployed for a new collection, current holders of 8bitmafia will be able to exchange their NFT for another one in the new collection. The smart contract will be designed to redistribute 50% of the game’s net profit amongst all the holders of 3D NFT’s, which will be able to claim by combining 3 2D NFT. From every Ether of net profit generated at the 8-BitMafiaverse game:
-
-50% : To 3D NFT holders
-15% : To landowners 
-35% : To the devs team
-
-*These figures do not include the initial NFT sales net profits as all its proceeds will be use to pay the team and reinvest in capex, marketing and incorporation fees.
-
-The game profit will consist of a sale of NFT keys to access real estate buildings, and the profits generated by our businesses and the sale of the 3d assets in the sandbox marketplace.
-
-
-
-
-
-
-
-
-
-
-
-
-
-INFO ABOUT 8-BitMafiaverse
-
- 8-BitMafiaverse is an immersive blockchain-based action roleplay game centered around the mafia lore of New York City in the 1930s. The game features a play-to-earn system in a fast paced and engaging environment of structured factions or“mafia families” that compete to be the best family in an array of fields, hence securing the most profits. You as a 8-BitMafiaverse citizen will have the ability to influence the outcomes of these conflicts while getting the opportunity to earn rewards for your contributions.
-This is all set in an open world filled with secondary activities (some non-related to the main theme of the game), many of which will be player created, as anyone will be able to purchase virtual real estate and create their own experiences or businesses. This world will be built on lands of The Sandbox Metaverse.
-The in-game currency is based on NFT currency (bills and coins) that are redeemed in the in-game bank in exchange for SAND tokens. It will be used to exchange goods and services inside 8-BitMafiaverse. All in-game assets like avatars, clothing, weapons & skins, etc will be NFTs which will be allowed to trade freely peer-to-peer, on in-game exchanges or at 3rd party markets. Players will be able to earn them as rewards too.
-DISCORD AND SOCIAL MEDIA FUSION
-
-Mafiaverse social media accounts will be changed to VerseFi and exclusively managed by them (the company behind the metaverse game).
-
-Eightbitmafia accounts will switch name to 8-BitMafiaverse and will cooperate with VerseFi team to make the social media grow, these social media accounts will be accessible by the Founders of both teams and respective social media manager. This will ensure a good cooperation and range of content and activity for the accounts.
-
-
-
-Why the Sandbox
-We believe The Sandbox among all blockchain metaverses to be the most marketable one as it has the lowest system requirements to run the client. This means it has the lowest barrier of entry for new players, hence having the most potential for long term user growth. Additionally, The Sandbox is by far the blockchain metaverse receiving the most media coverage as many partnerships have been occurring in the past few months some of them with big multinational corporations like Warner Bros Music, PricewaterhouseCoopers, South China Morning Post, and more. These not only cause money to flow into the metaverse but also legitimize the project, it proves there is interest from key players in several industries to interact with customers in a new and innovative way. 
-Rules
-
-We do not condone the development or promotion of any sort of scam or multi-layer marketing schemes, players attempting these techniques will be permanently banned from Mafiaverse. 
-
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Page</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Page</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Page</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Page</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-        <div class="container">
-          <div class="slider_inner row">
-            <div class="col-sm-6">
-              <div class="slider_contact">
-                <h2
-                  class="wow fadeInUp"
-                  data-wow-duration="400ms"
-                  data-wow-delay="200ms"
-                >
-                  <span style="text-transform: uppercase"
-                    >COMING SOON! UPCOMING NFT SALE!</span
-                  >
-                </h2>
-                <h4>The MafiaVerse</h4>
-                <p
-                  class="wow fadeInUp"
-                  data-wow-duration="600ms"
-                  data-wow-delay="800ms"
-                >
-                  <span>The MafiaVerse.</span>MafiaVerse In The
-                  SandBox<span>Join!</span>!
-                </p>
-                <p
-                  class="wow fadeInUp"
-                  data-wow-duration="600ms"
-                  data-wow-delay="800ms"
-                >
-                  The team has been assembled by recruiting through several
-                  platforms: connections of the founders, physical posters on
-                  strategic places like universities or libraries, announcements
-                  on LinkedIn, Twitter, Instragram, etc. Also, a lot of our
-                  members came directly from The Sandbox Official Discord. Here
-                  is where we also met and started building a relationship with
-                  our virtual landlords. It is worth noting that despite this
-                  phase being mostly done, the team is constantly changing, and
-                  we are still recruiting in areas like web 3.0 and marketing.
-                  The team is diverse and multi-national, we have members in
-                  Spain, United Kingdom, United States, Switzerland, The
-                  Netherlands, Colombia, Argentina, Costa Rica, India, Australia
-                  and probably some other we are forgetting.<br /><br /><span></span
-                  >Strategic Partnerships with other relevant ventures to either
-                  delegate certain areas of the project or to enjoy a mutual
-                  benefit of some sort like visibility We are close to making a
-                  deal with TJB Digital Services (a UK based website &
-                  positioning services) for them to make our website, provide
-                  hosting services, etc We are in talks with NFT MarketPlace and
-                  Nights (UK based too) as they proposed a merger between the
-                  projects. This could create a lot of value for both of us as
-                  the projects are intimately related by nature as well as
-                  providing us with some cash flow as they have raised some seed
-                  money already (70k GBP valuation according to their latest
-                  funding round).
-                </p>
-                <div class="social_banner text-left">
-                  <a href="https://discord.gg/" target="_blank"
-                    ><img src="images/discord.png" class="img-responsive" />
-                    Join Us</a
-                  ><a href="https://twitter.com/" target="_blank"
-                    ><img src="images/twitter.png" class="img-responsive" />
-                    Follow Us</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        
-        
-       <!-- here --> 
-        
-        
-        
-        
-        
-        <section class="ab_image" >
-			<div> <img src="images/fire3.vox" class="img-responsive" />
-				<div class="about_contact wow  fadeInUp" data-wow-duration="800ms" data-wow-delay="200ms" style="visibility: visible; animation-duration: 800ms; animation-delay: 200ms; animation-name: fadeInUp;">
-					<div id="shady2">
-          <h2>Join the MafiaVerse<br>Be Mafios!</h2>
-					<p class='golden_btn'>
-					  
-					  <a href="https://opensea.io/collection/" target="_blank" style="color: #ffffff;">BUY ON OPENSEA</a>
-			</div>
-
-          <!-- Here -->
-          
-          
-          <div class="timeline">
-		<ul>
-			<li>
-				<span>3rd January 2020</span>
-				<div class="content">
-					<h3>What Is Lorem Ipsum?</h3>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-					</p>
-				</div>
-			</li>
-			<li>
-				<span>21st Jun 2019</span>
-				<div class="content">
-					<h3>What Is Lorem Ipsum?</h3>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-					</p>
-				</div>
-			</li>
-			<li>
-				<span>15th April 2018</span>
-				<div class="content">
-					<h3>What Is Lorem Ipsum?</h3>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-					</p>
-				</div>
-			</li>
-			<li>
-				<span>22nd Mars 2017</span>
-				<div class="content">
-					<h3>What Is Lorem Ipsum?</h3>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
-					</p>
-				</div>
-			</li>
-		</ul>
-	</div>
-          <section class="about pos_here about_single padding_section" >
-				<div class="img_pos"> <img src="images/s.png" class="img-responsive" /> </div>
-				<div class="shadows shadow1"> <img src="images/s.png" class="img-responsive"> </div>
-				<div class="container">
-					<div class="about_inner row">
-						<div class="col-sm-7 pull-right">
-							<div class="about_contact wow  fadeInUp" data-wow-duration="800ms" data-wow-delay="200ms" style="">
-								<h2 id="shady">What are the MafiaVerse Keys</h2>
-								<p id="shady">Mafiaverse Keys are the NFT that enables you to own a piece of virtual real estate inside our game lands, there are 6 different types of keys;
-
-Condominium: High detail room in a residential building. Ideal for 1 person. 
-
-House: High detai house with different designs depending on the area. Ideal for a small group
-
-Commercial: A local to trade goods and selling services.
-
-Luxury: Unique design building, only few units avaliable.
-
-Headquarters: Suitable for large groups. Only 2 per Square </p>
-								<p></p>
+			<!-- here -->
+
+
+
+
+
+			<section class="ab_image">
+				<div> <img src="images/fire3.vox" class="img-responsive" />
+					<div class="about_contact wow  fadeInUp" data-wow-duration="800ms" data-wow-delay="200ms"
+						style="visibility: visible; animation-duration: 800ms; animation-delay: 200ms; animation-name: fadeInUp;">
+						<div id="shady2">
+							<h2>Join the MafiaVerse<br>Be Mafios!</h2>
+							<p class='golden_btn'>
+
+								<a href="https://opensea.io/collection/" target="_blank" style="color: #ffffff;">BUY ON
+									OPENSEA</a>
+						</div>
+
+						<!-- Here -->
+
+
+						<div class="timeline">
+							<ul>
+								<li>
+									<span>3rd January 2020</span>
+									<div class="content">
+										<h3>What Is Lorem Ipsum?</h3>
+										<p>
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+											Lorem Ipsum has been the industry's standard dummy text ever since the
+											1500s.
+										</p>
+									</div>
+								</li>
+								<li>
+									<span>21st Jun 2019</span>
+									<div class="content">
+										<h3>What Is Lorem Ipsum?</h3>
+										<p>
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+										</p>
+									</div>
+								</li>
+								<li>
+									<span>15th April 2018</span>
+									<div class="content">
+										<h3>What Is Lorem Ipsum?</h3>
+										<p>
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+										</p>
+									</div>
+								</li>
+								<li>
+									<span>22nd Mars 2017</span>
+									<div class="content">
+										<h3>What Is Lorem Ipsum?</h3>
+										<p>
+											Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+											Lorem Ipsum has been the industry's standard.
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<section class="about pos_here about_single padding_section">
+							<div class="img_pos"> <img src="images/s.png" class="img-responsive" /> </div>
+							<div class="shadows shadow1"> <img src="images/s.png" class="img-responsive"> </div>
+							<div class="container">
+								<div class="about_inner row">
+									<div class="col-sm-7 pull-right">
+										<div class="about_contact wow  fadeInUp" data-wow-duration="800ms"
+											data-wow-delay="200ms" style="">
+											<h2 id="shady">What are the MafiaVerse Keys</h2>
+											<p id="shady">Mafiaverse Keys are the NFT that enables you to own a piece of
+												virtual real estate inside our game lands, there are 6 different types
+												of keys;
+
+												Condominium: High detail room in a residential building. Ideal for 1
+												person.
+
+												House: High detai house with different designs depending on the area.
+												Ideal for a small group
+
+												Commercial: A local to trade goods and selling services.
+
+												Luxury: Unique design building, only few units avaliable.
+
+												Headquarters: Suitable for large groups. Only 2 per Square </p>
+											<p></p>
+										</div>
+									</div>
+									<div class="col-sm-5">
+										<div class="about_image_main wow  zoomIn" data-wow-duration="600ms"
+											data-wow-delay="200ms"><img src="images/chest.png" alt="place your img"
+												class="img-responsive wow FadeIn" data-wow-delay="0.2s"
+												style="margin: auto;"> </div>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div  class="col-sm-5">
-							<div class="about_image_main wow  zoomIn" data-wow-duration="600ms" data-wow-delay="200ms"><img src="images/chest.png" alt="place your img" class="img-responsive wow FadeIn" data-wow-delay="0.2s" style="margin: auto;"> </div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="about  about_single padding_section">
-				<div class="container">
-					<div class="about_inner row">
-						<div class="col-sm-12">
-							<div class="about_contact text-center wow  fadeInUp" data-wow-duration="800ms" data-wow-delay="200ms" style="">
-								<h2 id="shady">What is the MAFIAVERSE</h2>
-								<p id="shady">Mafiaverse is a roleplay game built on the Sandbox with the collaboration of Swansea University.  The game is a mafia roleplay MMO inspired in the mafia families of new york in the 1930's. The game wouldn't consist of a linear script but an umbrella of different activities that generate value for the player. The point of the game is based around the role that you are partaking, a mobster will look to become the strongest mafia, while a cop must try to stop that from happening. For this there are different features that are based around an NFT badge system that enables  you to do an specific set of quests depending of your role.</p>
+						</section>
+						<section class="about  about_single padding_section">
+							<div class="container">
+								<div class="about_inner row">
+									<div class="col-sm-12">
+										<div class="about_contact text-center wow  fadeInUp" data-wow-duration="800ms"
+											data-wow-delay="200ms" style="">
+											<h2 id="shady">What is the MAFIAVERSE</h2>
+											<p id="shady">Mafiaverse is a roleplay game built on the Sandbox with the
+												collaboration of Swansea University. The game is a mafia roleplay MMO
+												inspired in the mafia families of new york in the 1930's. The game
+												wouldn't consist of a linear script but an umbrella of different
+												activities that generate value for the player. The point of the game is
+												based around the role that you are partaking, a mobster will look to
+												become the strongest mafia, while a cop must try to stop that from
+												happening. For this there are different features that are based around
+												an NFT badge system that enables you to do an specific set of quests
+												depending of your role.</p>
+										</div>
+									</div>
+								</div>
 							</div>
-						</div>
+						</section>
+						<section class="how_work work_section padding_section" id="Features">
+							<div class="shadows shadow2"> <img src="img/client/snap_bg.png" class="img-responsive" />
+							</div>
+							<div class="container">
+								<div class="hight_light_h"> Features </div>
+								<div class="work_inner choose_patten_bg clearfix">
+									<div class="border_h"></div>
+									<div class="clearfix main_boxs">
+										<div class="col-sm-6">
+											<div class="about_contact  work_content text-left wow  fadeInUp"
+												data-wow-duration="800ms" data-wow-delay="200ms">
+												<div class="main_title">
+													<h2 id="shady"><span>1</span>Passive Income </h2>
+													<p id="shady">The MafiaVerse Cards are unique NFT with the same
+														design built on the Polygon blockchain for lower gas fees.
+														By owning one NFT you will be funding the creation of the
+														mafiaverse game in the Sandbox Metaverse. As a reward, owning
+														this NFT will let you access exclusive content and the holders
+														will get a total share of 10% of the profits generated in the
+														game and in our website.
+														<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="road_img"> <img src="img/client/6-removebg-preview.png"
+													class="img-responsive" /> </div>
+										</div>
+									</div>
+									<div class="clearfix main_boxs">
+										<div class="col-sm-6 pull-right">
+											<div class="about_contact  work_content text-left wow  fadeInUp"
+												data-wow-duration="800ms" data-wow-delay="200ms">
+												<div class="main_title">
+													<h2 id="shady"><span>2</span>Partnerships with Streamers / Online
+														Marketers</h2>
+													<p id="shady">We are in constant search for partnerships with
+														streamers and community figures. These people working with us
+														will play and share the game with their community. Also, the way
+														our game is designed, if we find no limitations within the
+														sandbox game maker logic, there will be an incentive to bring
+														large amounts of people into the game.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="road_img"> <img src="img/client/Attachment_1639266117.png"
+													class="img-responsive" /> </div>
+										</div>
+									</div>
+									<div class="clearfix main_boxs">
+										<div class="col-sm-6">
+											<div class="about_contact  work_content text-left wow  fadeInUp"
+												data-wow-duration="800ms" data-wow-delay="200ms">
+												<div class="main_title">
+													<h2 id="shady"><span>3</span>Lottery</h2>
+													<p id="shady">Holding the Mafiaverse card NFT will also make you
+														eligible to take part in a monthly lottery of NFT and Crypto
+														rewards depending on the generated revenue. A part from this,
+														you will have a vote on the governance of the mafiaverse updates
+														and meta.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-6">
+											<div class="road_img"> <img src="img/client/snap.png"
+													class="img-responsive" /> </div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
 					</div>
-				</div>
-			</section>
-			<section class="how_work work_section padding_section" id="Features">
-				<div class="shadows shadow2"> <img src="img/client/snap_bg.png" class="img-responsive" /> </div>
-				<div class="container">
-					<div class="hight_light_h"> Features </div>
-					<div class="work_inner choose_patten_bg clearfix">
-						<div class="border_h"></div>
-						<div class="clearfix main_boxs">
+					<section class="vdo_section padding_section" id="">
+						<div class="container">
 							<div class="col-sm-6">
-								<div class="about_contact  work_content text-left wow  fadeInUp" data-wow-duration="800ms" data-wow-delay="200ms">
-									<div class="main_title">
-										<h2 id="shady"><span>1</span>Passive Income </h2>
-										<p id="shady">The MafiaVerse Cards are unique NFT with the same design built on the Polygon blockchain for lower gas fees. 
-By owning one NFT you will be funding the creation of the mafiaverse game in the Sandbox Metaverse. As a reward, owning this NFT will let you access exclusive content and the holders will get  a total share of 10% of the profits generated in the game and in our website.
-											<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-									</div>
-								</div>
+								<iframe width="450" height="450" src="https://www.youtube.com/embed/qPVumlluz_4"
+									title="YouTube video player" frameborder="none"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
 							</div>
-							<div class="col-sm-6">
-								<div class="road_img"> <img src="img/client/6-removebg-preview.png" class="img-responsive" /> </div>
-							</div>
-						</div>
-						<div class="clearfix main_boxs">
-							<div class="col-sm-6 pull-right">
-								<div class="about_contact  work_content text-left wow  fadeInUp" data-wow-duration="800ms" data-wow-delay="200ms">
-									<div class="main_title">
-										<h2 id="shady"><span>2</span>Partnerships with Streamers / Online Marketers</h2>
-										<p id="shady">We are in constant search for partnerships with streamers and community figures. These people working with us will play and share the game with their community.  Also, the way our game is designed, if we find no limitations within the sandbox game maker logic, there will be an incentive to bring large amounts of people into the game.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="road_img"> <img src="img/client/Attachment_1639266117.png" class="img-responsive" /> </div>
-							</div>
-						</div>
-						<div class="clearfix main_boxs">
-							<div class="col-sm-6">
-								<div class="about_contact  work_content text-left wow  fadeInUp" data-wow-duration="800ms" data-wow-delay="200ms">
-									<div class="main_title">
-										<h2 id="shady"><span>3</span>Lottery</h2>
-										<p id="shady">Holding the Mafiaverse card NFT will also make you eligible to take part in a monthly lottery of NFT and Crypto rewards depending on the generated revenue. A part from this, you will have a vote on the governance of the mafiaverse updates and meta.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="road_img"> <img src="img/client/snap.png" class="img-responsive" /> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</div>
-		<section class="vdo_section padding_section" id="">
-			<div class="container">
-				<div class="col-sm-6">
-					<iframe width="450" height="450" src="https://www.youtube.com/embed/qPVumlluz_4" title="YouTube video player" frameborder="none" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-        
-        
-				<div class="col-sm-6">
-					<iframe width="450" height="450" src="https://www.youtube.com/embed/0UpWgT95PvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
-		</section>
-		<section class="step_sections padding_section" id="">
-			<div class="container">
-				<div class="hight_light_h text-center"> MORE FEATURES </div>
-				<div class="steps">
-					<div class="col-md-4 col-sm-4">
-						<div class="col-work-inr box1">
-							<div class="icon-otr">
-								<h4 class="heading heading-h4">Stealing from other players</h4> </div>
-							<p class="desc body-m">Our game is the first game in the sandbox metaverse that will let you steal for crypto rewards, the mafiaverse website will let you exchange the NFT dollars for our native token.. </p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="col-work-inr box1">
-							<div class="icon-otr">
-								<h4 class="heading heading-h4">NFT & Token Staking</h4> </div>
-							<p class="desc body-m">With our Token; holders will be able to stake and allocate funds into liquidity pools. This token though will have utility and can be traded for mafiaverse NFT listed in the sandbox marketplace.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="col-work-inr box1">
-							<div class="icon-otr">
-								<h4 class="heading heading-h4">Events & Entertainment</h4> </div>
-							<p class="desc body-m">We expect to make entertaining games like horse racing, boxing, a casino hosting weekly tournaments, and betting games, among many other ideas decided by the community itself.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="col-work-inr box1">
-							<div class="icon-otr">
-								<h4 class="heading heading-h4">Trading</h4> </div>
-							<p class="desc body-m">One of the main objectives for our game is to not only design a virtual hub for roleplaying, but also a marketplace where anyone can create value out of their bargaining skills..p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="col-work-inr box1">
-							<div class="icon-otr">
-								<h4 class="heading heading-h4">In-game Rewards</h4> </div>
-							<p class="desc body-m">The game will give rewards in NFT dollars which can be exchanged for our token, or put into staking. The only reasons why we use NFT dollars is so that this item can be passed from inventory to inventory within the sandbox game engine. </p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="col-work-inr box1">
-							<div class="icon-otr">
-								<h4 class="heading heading-h4">Aggresive Land Expansion</h4> </div>
-							<p class="desc body-m">As our community grows, so will our lands, anyone can pair their land to the mafiaverse for a <em>%</em> share of the profits as long as they provide at least one architect to construct their world, thus, the game will reach a point where each land will be completely controlled by a single group.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-				<section class="roadmap_section padding_section" id="roadmap">
-			<div class="container">
-				<div class="roadmap_inner choose_patten_bg">
-					<div class="about_contact  work_content text-center" style="">
-						<div id="shady3"><div class="main_title">
-							<h2 id="shady" > ROADMAP</h2>
-							<br> </div></div>
-						<div class="border_line"></div>
-						<div class="main_cols class_relative">
-							<div class="cols text-center clearfix">
-								<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000" data-wow-delay="200ms">
-									<div class="creative_title">
-										<h4 >Team Assemby & Website Launch<br></br> December 2021</h4> </div>
-									<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
-								</div>
-								<div class="content_title_right wow  fadeInDown" data-wow-duration="1000" data-wow-delay="400ms">
-									<div class="feature-content">
-										 
-						 <p> The team is diverse and multi-national, we have members in Spain, United Kingdom, United States, Switzerland, The Netherlands, Colombia, Argentina, Costa Rica, India, Australia.  </p>       
-										
-									</div>
-								</div>
-							</div>
-							<div class="cols text-center clearfix">
-								<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000" data-wow-delay="200ms">
-									<div class="creative_title">
-										<h4>Pitching to Universities<br></br>January 2022</h4> </div>
-									<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
-								</div>
-								<div class="content_title_right wow  fadeInDown" data-wow-duration="1000" data-wow-delay="400ms">
-									<div class="feature-content">
-										<p> <span></span> Universities have entrepreneurship offices that can connect you with venture capital and business angles as well as provide access to formation seminars on various topics regarding entrepreneurship and leadership. </p>
-									</div>
-								</div>
-							</div>
-							<div class="cols text-center clearfix">
-								<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000" data-wow-delay="200ms">
-									<div class="creative_title">
-										<h4>Strategic Partnership<br></br>February 2022</h4> </div>
-									<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
-								</div>
-								<div class="content_title_right wow  fadeInDown" data-wow-duration="1000" data-wow-delay="400ms">
-									<div class="feature-content">
-										<p>  We are seeking strategic partnerships with other relevant ventures to either delegate certain areas of the project or to enjoy a mutual benefit of some sort like visibility.
- </p>
-									</div>
-								</div>
-							</div>
-							<div class="cols text-center clearfix">
-								<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000" data-wow-delay="200ms">
-									<div class="creative_title">
-										<h4>NFTs Pre-Sale<br></br>March 2022</h4> </div>
-									<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
-								</div>
-								<div class="content_title_right wow  fadeInDown" data-wow-duration="1000" data-wow-delay="400ms">
-									<div class="feature-content">
-										<p> <span></span> We will implement a whitelist system in which the players will have to meet certain requirements: A specified level on the project discord server, invites, social media shares, still not decided how it will work. Details on this later...
-									</div>
-								</div>
-							</div>
-							<div class="cols text-center clearfix">
-								<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000" data-wow-delay="200ms">
-									<div class="creative_title">
-										<h4>Casino & Income flowing activities <br></br>April 2022</h4> </div>
-									<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
-								</div>
-								<div class="content_title_right wow  fadeInDown" data-wow-duration="1000" data-wow-delay="400ms">
-									<div class="feature-content">
-										<p> Launching a reduced version of the game with mafia related quests so players can get an initial taste of the roleplay experience and game mechanics.
- </p>
-									</div>
-								</div>
-							</div>
-							<div class="cols text-center clearfix">
-								<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000" data-wow-delay="200ms">
-									<div class="creative_title">
-										<h4>Registering an LLC or a DAO <br></br>May 2022</h4> </div>
-									<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
-								</div>
-								<div class="content_title_right wow  fadeInDown" data-wow-duration="1000" data-wow-delay="400ms">
-									<div class="feature-content">
-										<p>  We already have a corporate logo and name as well as drafts of the articles of association and the memorandum. Currently, we are holding off registering (LLC) for now as we are studying a (DAO) structure.</p>
-									</div>
-								</div>
-							</div>
-							<div class="cols text-center clearfix">
-								<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000" data-wow-delay="200ms">
-									<div class="creative_title">
-										<h4>Seed Venture Capital Funding<br></br>June 2022</h4> </div>
-									<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
-								</div>
-								<div class="content_title_right wow  fadeInDown" data-wow-duration="1000" data-wow-delay="400ms">
-									<div class="feature-content">
-										<p> We have already started building relationships with several business angels and venture capital firms for potential funding rounds in the future. We have already received a lot of interest from a couple angel investors via LinkedIn</p>
-									</div>
-								</div>
-							</div>
-							<div class="cols text-center clearfix">
-								<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000" data-wow-delay="200ms">
-									<div class="creative_title">
-										<h4>Aggressive Marketing Campaigns
-<br></br>July 2022</h4> </div>
-									<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
-								</div>
-								<div class="content_title_right wow  fadeInDown" data-wow-duration="1000" data-wow-delay="400ms">
-									<div class="feature-content">
-										<p> Creating an NFT collection that represents 10% share of the enterprise, publish it on open sea
-Doing NFT-key pre-sale 
-Searching for potential angel investors and applying to Sandbox game developing accelerator programs
-</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-        
-        
-			</div>
-		</section>
 
-<!-- Extra Timeline for future projects 
+
+							<div class="col-sm-6">
+								<iframe width="450" height="450" src="https://www.youtube.com/embed/0UpWgT95PvM"
+									title="YouTube video player" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</div>
+						</div>
+					</section>
+					<section class="step_sections padding_section" id="">
+						<div class="container">
+							<div class="hight_light_h text-center"> MORE FEATURES </div>
+							<div class="steps">
+								<div class="col-md-4 col-sm-4">
+									<div class="col-work-inr box1">
+										<div class="icon-otr">
+											<h4 class="heading heading-h4">Stealing from other players</h4>
+										</div>
+										<p class="desc body-m">Our game is the first game in the sandbox metaverse that
+											will let you steal for crypto rewards, the mafiaverse website will let you
+											exchange the NFT dollars for our native token.. </p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div class="col-work-inr box1">
+										<div class="icon-otr">
+											<h4 class="heading heading-h4">NFT & Token Staking</h4>
+										</div>
+										<p class="desc body-m">With our Token; holders will be able to stake and
+											allocate funds into liquidity pools. This token though will have utility and
+											can be traded for mafiaverse NFT listed in the sandbox marketplace.</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div class="col-work-inr box1">
+										<div class="icon-otr">
+											<h4 class="heading heading-h4">Events & Entertainment</h4>
+										</div>
+										<p class="desc body-m">We expect to make entertaining games like horse racing,
+											boxing, a casino hosting weekly tournaments, and betting games, among many
+											other ideas decided by the community itself.</p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div class="col-work-inr box1">
+										<div class="icon-otr">
+											<h4 class="heading heading-h4">Trading</h4>
+										</div>
+										<p class="desc body-m">One of the main objectives for our game is to not only
+											design a virtual hub for roleplaying, but also a marketplace where anyone
+											can create value out of their bargaining skills..p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div class="col-work-inr box1">
+										<div class="icon-otr">
+											<h4 class="heading heading-h4">In-game Rewards</h4>
+										</div>
+										<p class="desc body-m">The game will give rewards in NFT dollars which can be
+											exchanged for our token, or put into staking. The only reasons why we use
+											NFT dollars is so that this item can be passed from inventory to inventory
+											within the sandbox game engine. </p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div class="col-work-inr box1">
+										<div class="icon-otr">
+											<h4 class="heading heading-h4">Aggresive Land Expansion</h4>
+										</div>
+										<p class="desc body-m">As our community grows, so will our lands, anyone can
+											pair their land to the mafiaverse for a <em>%</em> share of the profits as
+											long as they provide at least one architect to construct their world, thus,
+											the game will reach a point where each land will be completely controlled by
+											a single group.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="roadmap_section padding_section" id="roadmap">
+						<div class="container">
+							<div class="roadmap_inner choose_patten_bg">
+								<div class="about_contact  work_content text-center" style="">
+									<div id="shady3">
+										<div class="main_title">
+											<h2 id="shady"> ROADMAP</h2>
+											<br>
+										</div>
+									</div>
+									<div class="border_line"></div>
+									<div class="main_cols class_relative">
+										<div class="cols text-center clearfix">
+											<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000"
+												data-wow-delay="200ms">
+												<div class="creative_title">
+													<h4>Team Assemby & Website Launch<br></br> December 2021</h4>
+												</div>
+												<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
+											</div>
+											<div class="content_title_right wow  fadeInDown" data-wow-duration="1000"
+												data-wow-delay="400ms">
+												<div class="feature-content">
+
+													<p> The team is diverse and multi-national, we have members in
+														Spain, United Kingdom, United States, Switzerland, The
+														Netherlands, Colombia, Argentina, Costa Rica, India, Australia.
+													</p>
+
+												</div>
+											</div>
+										</div>
+										<div class="cols text-center clearfix">
+											<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000"
+												data-wow-delay="200ms">
+												<div class="creative_title">
+													<h4>Pitching to Universities<br></br>January 2022</h4>
+												</div>
+												<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
+											</div>
+											<div class="content_title_right wow  fadeInDown" data-wow-duration="1000"
+												data-wow-delay="400ms">
+												<div class="feature-content">
+													<p> <span></span> Universities have entrepreneurship offices that
+														can connect you with venture capital and business angles as well
+														as provide access to formation seminars on various topics
+														regarding entrepreneurship and leadership. </p>
+												</div>
+											</div>
+										</div>
+										<div class="cols text-center clearfix">
+											<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000"
+												data-wow-delay="200ms">
+												<div class="creative_title">
+													<h4>Strategic Partnership<br></br>February 2022</h4>
+												</div>
+												<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
+											</div>
+											<div class="content_title_right wow  fadeInDown" data-wow-duration="1000"
+												data-wow-delay="400ms">
+												<div class="feature-content">
+													<p> We are seeking strategic partnerships with other relevant
+														ventures to either delegate certain areas of the project or to
+														enjoy a mutual benefit of some sort like visibility.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="cols text-center clearfix">
+											<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000"
+												data-wow-delay="200ms">
+												<div class="creative_title">
+													<h4>NFTs Pre-Sale<br></br>March 2022</h4>
+												</div>
+												<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
+											</div>
+											<div class="content_title_right wow  fadeInDown" data-wow-duration="1000"
+												data-wow-delay="400ms">
+												<div class="feature-content">
+													<p> <span></span> We will implement a whitelist system in which the
+														players will have to meet certain requirements: A specified
+														level on the project discord server, invites, social media
+														shares, still not decided how it will work. Details on this
+														later...
+												</div>
+											</div>
+										</div>
+										<div class="cols text-center clearfix">
+											<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000"
+												data-wow-delay="200ms">
+												<div class="creative_title">
+													<h4>Casino & Income flowing activities <br></br>April 2022</h4>
+												</div>
+												<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
+											</div>
+											<div class="content_title_right wow  fadeInDown" data-wow-duration="1000"
+												data-wow-delay="400ms">
+												<div class="feature-content">
+													<p> Launching a reduced version of the game with mafia related
+														quests so players can get an initial taste of the roleplay
+														experience and game mechanics.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="cols text-center clearfix">
+											<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000"
+												data-wow-delay="200ms">
+												<div class="creative_title">
+													<h4>Registering an LLC or a DAO <br></br>May 2022</h4>
+												</div>
+												<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
+											</div>
+											<div class="content_title_right wow  fadeInDown" data-wow-duration="1000"
+												data-wow-delay="400ms">
+												<div class="feature-content">
+													<p> We already have a corporate logo and name as well as drafts of
+														the articles of association and the memorandum. Currently, we
+														are holding off registering (LLC) for now as we are studying a
+														(DAO) structure.</p>
+												</div>
+											</div>
+										</div>
+										<div class="cols text-center clearfix">
+											<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000"
+												data-wow-delay="200ms">
+												<div class="creative_title">
+													<h4>Seed Venture Capital Funding<br></br>June 2022</h4>
+												</div>
+												<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
+											</div>
+											<div class="content_title_right wow  fadeInDown" data-wow-duration="1000"
+												data-wow-delay="400ms">
+												<div class="feature-content">
+													<p> We have already started building relationships with several
+														business angels and venture capital firms for potential funding
+														rounds in the future. We have already received a lot of interest
+														from a couple angel investors via LinkedIn</p>
+												</div>
+											</div>
+										</div>
+										<div class="cols text-center clearfix">
+											<div class="icon_title_left wow  fadeInUp" data-wow-duration="1000"
+												data-wow-delay="200ms">
+												<div class="creative_title">
+													<h4>Aggressive Marketing Campaigns
+														<br></br>July 2022
+													</h4>
+												</div>
+												<div class="feature-icon"> <i class="fa fa-diamond"></i> </div>
+											</div>
+											<div class="content_title_right wow  fadeInDown" data-wow-duration="1000"
+												data-wow-delay="400ms">
+												<div class="feature-content">
+													<p> Creating an NFT collection that represents 10% share of the
+														enterprise, publish it on open sea
+														Doing NFT-key pre-sale
+														Searching for potential angel investors and applying to Sandbox
+														game developing accelerator programs
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+					</section>
+
+					<!-- Extra Timeline for future projects 
             
 		<section class="roadmap_section padding_section" id="roadmap">
 			<div class="container">
@@ -1037,676 +1325,831 @@ Searching for potential angel investors and applying to Sandbox game developing 
 			</div>
 		</section>-->
 
-            <!-- FAQ -->
-		<section class="faq_section padding_section" id="faq">
-			<div class="container">
-				<div class="about_contact  work_content text-center" style="">
-					<div class="main_title"> <img src="images/mvlogo.png" class="img-responsive" style="margin: auto;height: 125px; margin-bottom: 15px;" />
-						<h2>FAQ</h2> 
-					</div>
-				</div>
-				<div class="panel-group" id="accordion">
-					<div class="panel panel-default wow  fadeIn" data-wow-duration="1000" data-wow-delay="200ms">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-						        <a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapsemint">Pitching to Universities<div class="plus_minus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></div></a>
-						     </h4> 
-						 </div>
-						<div id="collapsemint" class="panel-collapse collapse ">
-							<div class="panel-body">Universities have entrepreneurship offices that can connect you with venture capital and business angels as well as provide access to formation seminars on various topics regarding entrepreneurship and leadership. They can also offer advice on certain areas like compliance or corporate structure. They connect you with mentors too.
-
-They also have social media presence and internal communications infrastructure they can use to promote our project.
-
-We can access these perks free of cost as several of our members are university students. We have the confirmed support of Swansea University with potentially more to come such as Rotterdam Erasmus University.</div>
-						</div>
-            <div class="panel panel-default wow  fadeIn" data-wow-duration="1000" data-wow-delay="200ms">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-						        <a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapsemint">Team Assembly<div class="plus_minus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></div></a>
-						     </h4> 
-						 </div>
-						<div id="collapsemint" class="panel-collapse collapse ">
-							<div class="panel-body">The team has been assembled by recruiting through several platforms: connections of the founders, physical posters on strategic places like universities or libraries, announcements on LinkedIn, Twitter, Instragram, etc. Also, a lot of our members came directly from The Sanbox Official Discord. Here is where we also met and started building a relationship with our virtual landlords. 
-It is worth noting that despite this phase being mostly done, the team is constantly changing, and we are still recruiting in areas like web 3.0 and marketing.
-The team is diverse and multi-national, we have members in Spain, United Kingdom, United States, Switzerland, The Netherlands, Colombia, Argentina, Costa Rica, India, Australia and probably some other we are forgetting. 
-</div>
-						</div>
-					</div>
-					<div class="panel panel-default wow  fadeIn" data-wow-duration="1000" data-wow-delay="200ms">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-						        <a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapse1">Strategic Partnerships <div class="plus_minus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></div></a>
-						     </h4> 
-						 </div>
-						<div id="collapse1" class="panel-collapse collapse ">
-							<div class="panel-body">We seeked strategic partnerships with other relevant ventures to either delegate certain areas of the project or to enjoy a mutual benefit of some sort like visibility. 
-We are close to making a deal with TJB Digital Services (a UK based website & positioning services) for them to make our website, provide hosting services, etc. 
-We are in talks with NFT MarketPlace ASKNights (UK based too) as they proposed a merger between the projects. This could create a lot of value for both of us as the projects are intimately related by nature as well as providing us with some cash flow as they have raised some seed money already (70k GBP valuation according to their latest funding round). They also plan on doing an ICO in which they would allocate us a certain percentage of the tokens.
-
- </div>
-						</div>
-					</div>
-					<div class="panel panel-default wow  fadeIn" data-wow-duration="1000" data-wow-delay="400ms">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-						        <a data-toggle="collapse"  class="collapsed" data-parent="#accordion" href="#collapse2">NFTs Pre-Sale
-
-<div class="plus_minus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></div></a>
-						      </h4> 
-						 </div>
-						<div id="collapse2" class="panel-collapse collapse">
-							<div class="panel-body">We will implement a whitelist system in which the players will have to meet certain requirements: A specified level on the project discord server, invites, social media shares, still not decided how it will work. Details on this later.
-On completion of these requirements, you will be awarded whitelist status which will make you eligible for different raffles. Additionally, you will be able to participate in the presale of real estate and other in-game objects or collectibles, which will be sold at a discount compared to the public sale.
-Participants of the presale will be eligible for airdrops and other giveaways as the mint progresses, the rewards and airdrops specifics are still to be determined.
- </div>
-						</div>
-					</div>
-					<div class="panel panel-default wow  fadeIn" data-wow-duration="1000" data-wow-delay="600ms">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-						        <a data-toggle="collapse" class="collapsed"  data-parent="#accordion" href="#collapse3">Casino & Other Cash Flowing Activities Launch
-<div class="plus_minus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></div></a>
-						      </h4> 
-						 </div>
-						<div id="collapse3" class="panel-collapse collapse">
-							<div class="panel-body">We want to launch a reduced version of the game with a few mafia related quests so that players can get an initial taste of the roleplay experience and game mechanics. 
-We aim to deliver an exclusive casino experience with different types of slot machines (money and NFT prizes), dice game, roulette, and a few others. Nevertheless, we have recently found out that The Sandbox Developers won’t approve purely randomness-based gambling games right now as they want to be in “full compliance” (we assume this has to do with the weird ways we have to employ right now to generate randomness due to the game maker logic limitations).
-This is scheduled to be delivered somewhere between late January and Early February, we will give further updates on this and on gambling games shortly.
-</div>
-						</div>
-					</div>
-					<div class="panel panel-default wow  fadeIn" data-wow-duration="1000" data-wow-delay="600ms">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-						        <a data-toggle="collapse" class="collapsed"  data-parent="#accordion" href="#collapse4">Registering an LLC or a DAO
-<div class="plus_minus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></div></a>
-						      </h4> 
-						  </div>
-						 <div id="collapse4" class="panel-collapse collapse">
-							<div class="panel-body"> We already have a corporate logo and name as well as drafts of the articles of association and the memorandum. Nevertheless, we are holding off registering the Limited Liability Corporation (LLC) for now as we are studying whether a Decentralized Autonomous Organization (DAO) would be a more suitable structure for us. 
-VerseFi LLC/DAO, United Kingdom based.
-The names of the two cofounders are Nicholas van Eerde & Nahuel Angelone.
-*This info will most likely change in case of a merger with ASKNights Marketplace*
-
+					<!-- FAQ -->
+					<section class="faq_section padding_section" id="faq">
+						<div class="container">
+							<div class="about_contact  work_content text-center" style="">
+								<div class="main_title"> <img src="images/mvlogo.png" class="img-responsive"
+										style="margin: auto;height: 125px; margin-bottom: 15px;" />
+									<h2>FAQ</h2>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="panel panel-default wow  fadeIn" data-wow-duration="1000" data-wow-delay="600ms">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-					        <a data-toggle="collapse" class="collapsed"  data-parent="#accordion" href="#collapse5">Seed Venture Capital Funding 
-<div class="plus_minus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></div></a>
-					      </h4> 
-					   </div>
-						<div id="collapse5" class="panel-collapse collapse">
-							<div class="panel-body">We have already started building relationships with several business angels and venture capital firms for potential funding rounds in the future. We have already received a lot of interest from a couple angel investors via LinkedIn, but we have rejected it for now as we want to keep bootstrapping in the short term. 
- 
-								<br> We intend to raise seed funding somewhere in Q2 2021, we have our first pitch on January 22nd 2021. We don’t have a figure in mind yet as it also depends on the pre-sale turnover and on the ASKNights merger talks outcome.  </div>
-						</div>
-					</div>
-					<div class="panel panel-default wow  fadeIn" data-wow-duration="1000" data-wow-delay="600ms">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-						        <a data-toggle="collapse" class="collapsed"  data-parent="#accordion" href="#collapse66">Aggressive Marketing Campaigns
-<div class="plus_minus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></div></a>
-						      </h4> 
-						 </div>
-						<div id="collapse66" class="panel-collapse collapse">
-							<div class="panel-body">Creating an NFT collection that represents 10% share of the enterprise, publish it on open sea
-                <br> Doing NFT-key pre-sale 
-Searching for potential angel investors and applying to Sandbox game developing accelerator programs
+							<div class="panel-group" id="accordion">
+								<div class="panel panel-default wow  fadeIn" data-wow-duration="1000"
+									data-wow-delay="200ms">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" class="collapsed" data-parent="#accordion"
+												href="#collapsemint">Pitching to Universities<div class="plus_minus"><i
+														class="fa fa-plus"></i><i class="fa fa-minus"></i></div></a>
+										</h4>
+									</div>
+									<div id="collapsemint" class="panel-collapse collapse ">
+										<div class="panel-body">Universities have entrepreneurship offices that can
+											connect you with venture capital and business angels as well as provide
+											access to formation seminars on various topics regarding entrepreneurship
+											and leadership. They can also offer advice on certain areas like compliance
+											or corporate structure. They connect you with mentors too.
 
+											They also have social media presence and internal communications
+											infrastructure they can use to promote our project.
 
- </div>
-						</div>
-					</div>
-					<div class="panel panel-default wow  fadeIn" data-wow-duration="1000" data-wow-delay="600ms">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-						        <a data-toggle="collapse" class="collapsed"  data-parent="#accordion" href="#collapse10">1st Public Sale
-
- <div class="plus_minus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></div></a>
-						      </h4> 
-						 </div>
-						<div id="collapse10" class="panel-collapse collapse">
-							<div class="panel-body"><br>The first public sale of NFT keys must have an emphasis on explaining what exactly the key does, what can you do by owning a key that others can't.
-<br> Extra Land Purchases <em>&</em>Company profit is reinvested into buying lands and marketing
-The public Sale must come after reaching a considerable quantity of active members in the discord
-
-</div>
-						</div>
-					</div>
-					<div class="panel panel-default wow  fadeIn" data-wow-duration="1000" data-wow-delay="600ms">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-					        <a data-toggle="collapse" class="collapsed"  data-parent="#accordion" href="#collapse11">Alpha Launch
-<div class="plus_minus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></div></a>
-					      </h4> 
-					    </div>
-						<div id="collapse11" class="panel-collapse collapse">
-							<div class="panel-body">The alpha launch will consist of a 2 x 2 land with a set of essential locations essential for developing the mafiaverse roleplay, this map will, later on, be expanded to more locations in the surroundings.</div>
-						</div>
-					</div>
-					<div class="panel panel-default wow  fadeIn" data-wow-duration="1000" data-wow-delay="600ms">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-					        <a data-toggle="collapse" class="collapsed"  data-parent="#accordion" href="#collapse12">How much does a NFT cost<div class="plus_minus"><i class="fa fa-plus"></i><i class="fa fa-minus"></i></div></a>
-					      </h4> 
-					    </div>
-						<div id="collapse12" class="panel-collapse collapse">
-							<div class="panel-body">To Be Determined... </div>
-              
-              
-						</div>
-					</div>
-				</div>
-			</div>
-      
-		</section>
-		
-		<!--  -->
-
-                <!-- Partners  -->
-
-
-                <div>
-<section class="team_section  work_section padding_section" id="">
-			<div class="container">
-				<div class="work_inner">
-					<div class="col-sm-12">
-						<div class="about_contact  work_content text-center wow  fadeInUp" data-wow-duration="800ms" data-wow-delay="200ms" style="visibility: visible; animation-duration: 800ms; animation-delay: 200ms; animation-name: fadeInUp;">
-								<div class="main_title star_title">
-
-
-
-
-
-
-                
-								<h2>Partnerships</h2> </div>
-
-
-
-
-                  
-                  <div class="main">
-<div class="profile-card">
-            <div class="img">
-                <img src="images/brickkenlogo.png">
-            </div>
-            <div class="caption">
-                <h3>...</h3>
-                <p>...</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-        </div>
-
-                    
-        <div class="profile-card">
-            <div class="img">
-                <img src="images/8bitlogo.png">
-            </div>
-            <div class="caption">
-                <h3>...</h3>
-                <p>...</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="profile-card">
-            <div class="img">
-                <img src="images/santanderlogo.png">
-            </div>
-            <div class="caption">
-                <h3>.../h3>
-                <p>...</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="profile-card">
-            <div class="img">
-                <img src="images/arklogo.png">
-            </div>
-            <div class="caption">
-                <h3>...</h3>
-                <p>...</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-                  
-                </div>
-
-
-
-                
-		</section>
-
-
-
-
-
-
-
-
-
-
-		
-                
-<section class="team_section  work_section padding_section" id="team">
-			<div class="container">
-				<div class="work_inner">
-					<div class="col-sm-12">
-						<div class="about_contact  work_content text-center wow  fadeInUp" data-wow-duration="800ms" data-wow-delay="200ms" style="visibility: visible; animation-duration: 800ms; animation-delay: 200ms; animation-name: fadeInUp;">
-							<div class="main_title star_title">
-
-
-
-
-
-
-                
-								<h2>Our Team</h2> </div>
-						</div>
-					</div>
-					<div class="col-sm-12">
-						<div class="team_content text-center" style="">
-							<div class="main_cols row" id="teamm">
-								<div class="col-md-3 col-sm-3  col-xs-12">
-									<div class="single_work_team wow  fadeInUp" data-wow-duration="1000" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
-										<div class="team_work_bg"> <img src="images/genericavatar.png" class="img-responsive" alt="place your img"> </div>
-										<div class="team_content">
-											<h4>Nicholas van Eerde</h4>
-											<p>Co - Founder</p>
-											<div class="socials">
-												<a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" class="img-responsive"></a>
+											We can access these perks free of cost as several of our members are
+											university students. We have the confirmed support of Swansea University
+											with potentially more to come such as Rotterdam Erasmus University.</div>
+									</div>
+									<div class="panel panel-default wow  fadeIn" data-wow-duration="1000"
+										data-wow-delay="200ms">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" class="collapsed" data-parent="#accordion"
+													href="#collapsemint">Team Assembly<div class="plus_minus"><i
+															class="fa fa-plus"></i><i class="fa fa-minus"></i></div></a>
+											</h4>
+										</div>
+										<div id="collapsemint" class="panel-collapse collapse ">
+											<div class="panel-body">The team has been assembled by recruiting through
+												several platforms: connections of the founders, physical posters on
+												strategic places like universities or libraries, announcements on
+												LinkedIn, Twitter, Instragram, etc. Also, a lot of our members came
+												directly from The Sanbox Official Discord. Here is where we also met and
+												started building a relationship with our virtual landlords.
+												It is worth noting that despite this phase being mostly done, the team
+												is constantly changing, and we are still recruiting in areas like web
+												3.0 and marketing.
+												The team is diverse and multi-national, we have members in Spain, United
+												Kingdom, United States, Switzerland, The Netherlands, Colombia,
+												Argentina, Costa Rica, India, Australia and probably some other we are
+												forgetting.
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="col-md-3 col-sm-3  col-xs-12">
-									<div class="single_work_team wow  fadeInUp" data-wow-duration="1000" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
-										<div class="team_work_bg"> <img src="images/genericavatar.png" class="img-responsive" alt="place your img"> </div>
-										<div class="team_content">
-											<h4>Nahuel Angelone</h4>
-											<p>Co - Founder</p>
-											<div class="socials">
-												<a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" class="img-responsive"></a>
-												<a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" class="img-responsive"></a>
-												<a href="https://www.linkedin.com/" target="_blank"><img src="images/twitter.png" class="img-responsive"></a>
+									<div class="panel panel-default wow  fadeIn" data-wow-duration="1000"
+										data-wow-delay="200ms">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" class="collapsed" data-parent="#accordion"
+													href="#collapse1">Strategic Partnerships <div class="plus_minus"><i
+															class="fa fa-plus"></i><i class="fa fa-minus"></i></div></a>
+											</h4>
+										</div>
+										<div id="collapse1" class="panel-collapse collapse ">
+											<div class="panel-body">We seeked strategic partnerships with other relevant
+												ventures to either delegate certain areas of the project or to enjoy a
+												mutual benefit of some sort like visibility.
+												We are close to making a deal with TJB Digital Services (a UK based
+												website & positioning services) for them to make our website, provide
+												hosting services, etc.
+												We are in talks with NFT MarketPlace ASKNights (UK based too) as they
+												proposed a merger between the projects. This could create a lot of value
+												for both of us as the projects are intimately related by nature as well
+												as providing us with some cash flow as they have raised some seed money
+												already (70k GBP valuation according to their latest funding round).
+												They also plan on doing an ICO in which they would allocate us a certain
+												percentage of the tokens.
+
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="col-md-3 col-sm-3  col-xs-12">
-									<div class="single_work_team wow  fadeInUp" data-wow-duration="1000" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
-										<div class="team_work_bg"> <img src="images/genericavatar.png" class="img-responsive" alt="place your img"> </div>
-										<div class="team_content">
-											<h4>Proninkirill</h4>
-											<p>Team Member</p>
-											<div class="socials">
-												<a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" class="img-responsive"></a>
-												<a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" class="img-responsive"></a>
-												<a href="https://www.linkedin.com/" target="_blank"><img src="images/twitter.png" class="img-responsive"></a>
+									<div class="panel panel-default wow  fadeIn" data-wow-duration="1000"
+										data-wow-delay="400ms">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" class="collapsed" data-parent="#accordion"
+													href="#collapse2">NFTs Pre-Sale
+
+													<div class="plus_minus"><i class="fa fa-plus"></i><i
+															class="fa fa-minus"></i></div>
+												</a>
+											</h4>
+										</div>
+										<div id="collapse2" class="panel-collapse collapse">
+											<div class="panel-body">We will implement a whitelist system in which the
+												players will have to meet certain requirements: A specified level on the
+												project discord server, invites, social media shares, still not decided
+												how it will work. Details on this later.
+												On completion of these requirements, you will be awarded whitelist
+												status which will make you eligible for different raffles. Additionally,
+												you will be able to participate in the presale of real estate and other
+												in-game objects or collectibles, which will be sold at a discount
+												compared to the public sale.
+												Participants of the presale will be eligible for airdrops and other
+												giveaways as the mint progresses, the rewards and airdrops specifics are
+												still to be determined.
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="col-md-3 col-sm-3  col-xs-12">
-									<div class="single_work_team wow  fadeInUp" data-wow-duration="1000" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
-										<div class="team_work_bg"> <img src="images/genericavatar.png" class="img-responsive" alt="place your img"> </div>
-										<div class="team_content">
-											<h4>BlockchainKing</h4>
-											<p>Team Member</p>
-											<div class="socials">
-												<a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" class="img-responsive"></a>
+									<div class="panel panel-default wow  fadeIn" data-wow-duration="1000"
+										data-wow-delay="600ms">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" class="collapsed" data-parent="#accordion"
+													href="#collapse3">Casino & Other Cash Flowing Activities Launch
+													<div class="plus_minus"><i class="fa fa-plus"></i><i
+															class="fa fa-minus"></i></div>
+												</a>
+											</h4>
+										</div>
+										<div id="collapse3" class="panel-collapse collapse">
+											<div class="panel-body">We want to launch a reduced version of the game with
+												a few mafia related quests so that players can get an initial taste of
+												the roleplay experience and game mechanics.
+												We aim to deliver an exclusive casino experience with different types of
+												slot machines (money and NFT prizes), dice game, roulette, and a few
+												others. Nevertheless, we have recently found out that The Sandbox
+												Developers won’t approve purely randomness-based gambling games right
+												now as they want to be in “full compliance” (we assume this has to do
+												with the weird ways we have to employ right now to generate randomness
+												due to the game maker logic limitations).
+												This is scheduled to be delivered somewhere between late January and
+												Early February, we will give further updates on this and on gambling
+												games shortly.
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="col-md-3 col-sm-3  col-xs-12">
-									<div class="single_work_team wow  fadeInUp" data-wow-duration="1000" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
-										<div class="team_work_bg"> <img src="images/genericavatar.png" class="img-responsive" alt="place your img"> </div>
-										<div class="team_content">
-											<h4>Ipsum lorem </h4>
-											<p>Community Manager</p>
-											<div class="socials">
-												<a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" class="img-responsive"></a>
+									<div class="panel panel-default wow  fadeIn" data-wow-duration="1000"
+										data-wow-delay="600ms">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" class="collapsed" data-parent="#accordion"
+													href="#collapse4">Registering an LLC or a DAO
+													<div class="plus_minus"><i class="fa fa-plus"></i><i
+															class="fa fa-minus"></i></div>
+												</a>
+											</h4>
+										</div>
+										<div id="collapse4" class="panel-collapse collapse">
+											<div class="panel-body"> We already have a corporate logo and name as well
+												as drafts of the articles of association and the memorandum.
+												Nevertheless, we are holding off registering the Limited Liability
+												Corporation (LLC) for now as we are studying whether a Decentralized
+												Autonomous Organization (DAO) would be a more suitable structure for us.
+												VerseFi LLC/DAO, United Kingdom based.
+												The names of the two cofounders are Nicholas van Eerde & Nahuel
+												Angelone.
+												*This info will most likely change in case of a merger with ASKNights
+												Marketplace*
+
 											</div>
+										</div>
+									</div>
+									<div class="panel panel-default wow  fadeIn" data-wow-duration="1000"
+										data-wow-delay="600ms">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" class="collapsed" data-parent="#accordion"
+													href="#collapse5">Seed Venture Capital Funding
+													<div class="plus_minus"><i class="fa fa-plus"></i><i
+															class="fa fa-minus"></i></div>
+												</a>
+											</h4>
+										</div>
+										<div id="collapse5" class="panel-collapse collapse">
+											<div class="panel-body">We have already started building relationships with
+												several business angels and venture capital firms for potential funding
+												rounds in the future. We have already received a lot of interest from a
+												couple angel investors via LinkedIn, but we have rejected it for now as
+												we want to keep bootstrapping in the short term.
+
+												<br> We intend to raise seed funding somewhere in Q2 2021, we have our
+												first pitch on January 22nd 2021. We don’t have a figure in mind yet as
+												it also depends on the pre-sale turnover and on the ASKNights merger
+												talks outcome.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default wow  fadeIn" data-wow-duration="1000"
+										data-wow-delay="600ms">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" class="collapsed" data-parent="#accordion"
+													href="#collapse66">Aggressive Marketing Campaigns
+													<div class="plus_minus"><i class="fa fa-plus"></i><i
+															class="fa fa-minus"></i></div>
+												</a>
+											</h4>
+										</div>
+										<div id="collapse66" class="panel-collapse collapse">
+											<div class="panel-body">Creating an NFT collection that represents 10% share
+												of the enterprise, publish it on open sea
+												<br> Doing NFT-key pre-sale
+												Searching for potential angel investors and applying to Sandbox game
+												developing accelerator programs
+
+
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default wow  fadeIn" data-wow-duration="1000"
+										data-wow-delay="600ms">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" class="collapsed" data-parent="#accordion"
+													href="#collapse10">1st Public Sale
+
+													<div class="plus_minus"><i class="fa fa-plus"></i><i
+															class="fa fa-minus"></i></div>
+												</a>
+											</h4>
+										</div>
+										<div id="collapse10" class="panel-collapse collapse">
+											<div class="panel-body"><br>The first public sale of NFT keys must have an
+												emphasis on explaining what exactly the key does, what can you do by
+												owning a key that others can't.
+												<br> Extra Land Purchases <em>&</em>Company profit is reinvested into
+												buying lands and marketing
+												The public Sale must come after reaching a considerable quantity of
+												active members in the discord
+
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default wow  fadeIn" data-wow-duration="1000"
+										data-wow-delay="600ms">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" class="collapsed" data-parent="#accordion"
+													href="#collapse11">Alpha Launch
+													<div class="plus_minus"><i class="fa fa-plus"></i><i
+															class="fa fa-minus"></i></div>
+												</a>
+											</h4>
+										</div>
+										<div id="collapse11" class="panel-collapse collapse">
+											<div class="panel-body">The alpha launch will consist of a 2 x 2 land with a
+												set of essential locations essential for developing the mafiaverse
+												roleplay, this map will, later on, be expanded to more locations in the
+												surroundings.</div>
+										</div>
+									</div>
+									<div class="panel panel-default wow  fadeIn" data-wow-duration="1000"
+										data-wow-delay="600ms">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" class="collapsed" data-parent="#accordion"
+													href="#collapse12">How much does a NFT cost<div class="plus_minus">
+														<i class="fa fa-plus"></i><i class="fa fa-minus"></i></div></a>
+											</h4>
+										</div>
+										<div id="collapse12" class="panel-collapse collapse">
+											<div class="panel-body">To Be Determined... </div>
+
+
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> 
-		
-		<!-- -->
-		<footer class="footer" id="footer">
-	<div class="container">
-		<div class="footer-icons">
-			<a href="https://www.youtube.com/channel/" target="_blank"><img src="images/youtube.png" class="img-responsive" /></a>
-			<a href="https://opensea.io/collection/" target="_blank"><img src="images/opensea.png" class="img-responsive" /></a>
-			<a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" class="img-responsive" /></a>
-			<a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" class="img-responsive" /></a>
-			<a href="https://discord.gg/" target="_blank"><img src="images/discord.png" class="img-responsive" /></a>
-		</div>
-	</div>
-	<div class="footer-content wow  fadeIn" data-wow-duration="200" data-wow-delay="200ms">
-		<!--<div class="copy-right">
+
+					</section>
+
+					<!--  -->
+
+					<!-- Partners  -->
+
+
+					<div>
+						<section class="team_section  work_section padding_section" id="">
+							<div class="container">
+								<div class="work_inner">
+									<div class="col-sm-12">
+										<div class="about_contact  work_content text-center wow  fadeInUp"
+											data-wow-duration="800ms" data-wow-delay="200ms"
+											style="visibility: visible; animation-duration: 800ms; animation-delay: 200ms; animation-name: fadeInUp;">
+											<div class="main_title star_title">
+
+
+
+
+
+
+
+												<h2>Partnerships</h2>
+											</div>
+
+
+
+
+
+											<div class="main">
+												<div class="profile-card">
+													<div class="img">
+														<img src="images/brickkenlogo.png">
+													</div>
+													<div class="caption">
+														<h3>...</h3>
+														<p>...</p>
+														<div class="social-links">
+															<a href="#"><i class="fab fa-facebook"></i></a>
+															<a href="#"><i class="fab fa-instagram"></i></a>
+															<a href="#"><i class="fab fa-twitter"></i></a>
+														</div>
+													</div>
+												</div>
+
+
+												<div class="profile-card">
+													<div class="img">
+														<img src="images/8bitlogo.png">
+													</div>
+													<div class="caption">
+														<h3>...</h3>
+														<p>...</p>
+														<div class="social-links">
+															<a href="#"><i class="fab fa-facebook"></i></a>
+															<a href="#"><i class="fab fa-instagram"></i></a>
+															<a href="#"><i class="fab fa-twitter"></i></a>
+														</div>
+													</div>
+												</div>
+												<div class="profile-card">
+													<div class="img">
+														<img src="images/santanderlogo.png">
+													</div>
+													<div class="caption">
+														<h3>.../h3>
+															<p>...</p>
+															<div class="social-links">
+																<a href="#"><i class="fab fa-facebook"></i></a>
+																<a href="#"><i class="fab fa-instagram"></i></a>
+																<a href="#"><i class="fab fa-twitter"></i></a>
+															</div>
+													</div>
+												</div>
+												<div class="profile-card">
+													<div class="img">
+														<img src="images/arklogo.png">
+													</div>
+													<div class="caption">
+														<h3>...</h3>
+														<p>...</p>
+														<div class="social-links">
+															<a href="#"><i class="fab fa-facebook"></i></a>
+															<a href="#"><i class="fab fa-instagram"></i></a>
+															<a href="#"><i class="fab fa-twitter"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+
+
+
+
+										</div>
+
+
+
+
+						</section>
+
+
+
+
+
+
+
+
+
+
+
+
+						<section class="team_section  work_section padding_section" id="team">
+							<div class="container">
+								<div class="work_inner">
+									<div class="col-sm-12">
+										<div class="about_contact  work_content text-center wow  fadeInUp"
+											data-wow-duration="800ms" data-wow-delay="200ms"
+											style="visibility: visible; animation-duration: 800ms; animation-delay: 200ms; animation-name: fadeInUp;">
+											<div class="main_title star_title">
+
+
+
+
+
+
+
+												<h2>Our Team</h2>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-12">
+										<div class="team_content text-center" style="">
+											<div class="main_cols row" id="teamm">
+												<div class="col-md-3 col-sm-3  col-xs-12">
+													<div class="single_work_team wow  fadeInUp" data-wow-duration="1000"
+														data-wow-delay="400ms"
+														style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
+														<div class="team_work_bg"> <img src="images/genericavatar.png"
+																class="img-responsive" alt="place your img"> </div>
+														<div class="team_content">
+															<h4>Nicholas van Eerde</h4>
+															<p>Co - Founder</p>
+															<div class="socials">
+																<a href="https://twitter.com/" target="_blank"><img
+																		src="images/twitter.png"
+																		class="img-responsive"></a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-3  col-xs-12">
+													<div class="single_work_team wow  fadeInUp" data-wow-duration="1000"
+														data-wow-delay="400ms"
+														style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
+														<div class="team_work_bg"> <img src="images/genericavatar.png"
+																class="img-responsive" alt="place your img"> </div>
+														<div class="team_content">
+															<h4>Nahuel Angelone</h4>
+															<p>Co - Founder</p>
+															<div class="socials">
+																<a href="https://twitter.com/" target="_blank"><img
+																		src="images/twitter.png"
+																		class="img-responsive"></a>
+																<a href="https://www.instagram.com/"
+																	target="_blank"><img src="images/instagram.png"
+																		class="img-responsive"></a>
+																<a href="https://www.linkedin.com/" target="_blank"><img
+																		src="images/twitter.png"
+																		class="img-responsive"></a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-3  col-xs-12">
+													<div class="single_work_team wow  fadeInUp" data-wow-duration="1000"
+														data-wow-delay="400ms"
+														style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
+														<div class="team_work_bg"> <img src="images/genericavatar.png"
+																class="img-responsive" alt="place your img"> </div>
+														<div class="team_content">
+															<h4>Proninkirill</h4>
+															<p>Team Member</p>
+															<div class="socials">
+																<a href="https://twitter.com/" target="_blank"><img
+																		src="images/twitter.png"
+																		class="img-responsive"></a>
+																<a href="https://www.instagram.com/"
+																	target="_blank"><img src="images/instagram.png"
+																		class="img-responsive"></a>
+																<a href="https://www.linkedin.com/" target="_blank"><img
+																		src="images/twitter.png"
+																		class="img-responsive"></a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-3  col-xs-12">
+													<div class="single_work_team wow  fadeInUp" data-wow-duration="1000"
+														data-wow-delay="400ms"
+														style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
+														<div class="team_work_bg"> <img src="images/genericavatar.png"
+																class="img-responsive" alt="place your img"> </div>
+														<div class="team_content">
+															<h4>BlockchainKing</h4>
+															<p>Team Member</p>
+															<div class="socials">
+																<a href="https://twitter.com/" target="_blank"><img
+																		src="images/twitter.png"
+																		class="img-responsive"></a>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-3 col-sm-3  col-xs-12">
+													<div class="single_work_team wow  fadeInUp" data-wow-duration="1000"
+														data-wow-delay="400ms"
+														style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
+														<div class="team_work_bg"> <img src="images/genericavatar.png"
+																class="img-responsive" alt="place your img"> </div>
+														<div class="team_content">
+															<h4>Ipsum lorem </h4>
+															<p>Community Manager</p>
+															<div class="socials">
+																<a href="https://twitter.com/" target="_blank"><img
+																		src="images/twitter.png"
+																		class="img-responsive"></a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- -->
+						<footer class="footer" id="footer">
+							<div class="container">
+								<div class="footer-icons">
+									<a href="https://www.youtube.com/channel/" target="_blank"><img
+											src="images/youtube.png" class="img-responsive" /></a>
+									<a href="https://opensea.io/collection/" target="_blank"><img
+											src="images/opensea.png" class="img-responsive" /></a>
+									<a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png"
+											class="img-responsive" /></a>
+									<a href="https://twitter.com/" target="_blank"><img src="images/twitter.png"
+											class="img-responsive" /></a>
+									<a href="https://discord.gg/" target="_blank"><img src="images/discord.png"
+											class="img-responsive" /></a>
+								</div>
+							</div>
+							<div class="footer-content wow  fadeIn" data-wow-duration="200" data-wow-delay="200ms">
+								<!--<div class="copy-right">
 					Copyright © 2021. All Rights Reserved. </div>
 				</div>-->
-       
-          
-        <h2>Collapsible Sidebar Using Bootstrap 4</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-        <div class="line"></div>
-
-        <h2>Lorem Ipsum Dolor</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-        <div class="line"></div>
-
-        <h2>Lorem Ipsum Dolor</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-
-        <div class="line"></div>
-
-        <h3>Lorem Ipsum Dolor</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-    </div>
-
-    <!-- jQuery CDN - Slim version (=without AJAX) -->
-    
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center active"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<!-- Required JS Start-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-<script type="text/javascript" src="https://unpkg.com/web3@1.2.11/dist/web3.min.js"></script>
-<script type="text/javascript" src="https://unpkg.com/web3modal@1.9.0/dist/index.js"></script>
-<script type="text/javascript" src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"></script>
-<script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider@1.6.6/dist/umd/index.min.js"></script>
-<script type="text/javascript" src="https://unpkg.com/fortmatic@2.0.6/dist/fortmatic.js"></script>
-<script type="text/javascript" src="js/wallet-new-new.js"></script>
-<!--Owl carousel script load-->
-<script src="js/owl.carousel.min.js"></script>
 
 
-<script>
-  $(".owl-carousel").owlCarousel({
-    responsiveClass: true,
-	dots: true,
-	dotsContainer: false,
-	   loop: true,
-	   autoWidth: true,
-      autoplay:true,
-      nav:true,
-	  smartSpeed:1000,
-	  items:3,
-	  responsive: {
-    0: {
-      items:1,
-      margin: 150,
-	  center: true
-	
-    },
-	
-    768: {
-		items:3,
-			  margin:200,
-		 center: false
-			},   
-	
-	992: {
-		items:3,
-	margin: 35,
-	    center: true
-	},
-	
-    1200: {
-          items:3,
-		margin:250,
-		 center: true
-    },
-	
-  },
-  });
+								<h2>Collapsible Sidebar Using Bootstrap 4</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+									eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+									minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+									aliquip ex ea commodo consequat. Duis aute irure dolor in
+									reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+									pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+									culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+									eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+									minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+									aliquip ex ea commodo consequat. Duis aute irure dolor in
+									reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+									pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+									culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+
+								<div class="line"></div>
+
+								<h2>Lorem Ipsum Dolor</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+									eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+									minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+									aliquip ex ea commodo consequat. Duis aute irure dolor in
+									reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+									pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+									culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+
+								<div class="line"></div>
+
+								<h2>Lorem Ipsum Dolor</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+									eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+									minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+									aliquip ex ea commodo consequat. Duis aute irure dolor in
+									reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+									pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+									culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+
+								<div class="line"></div>
+
+								<h3>Lorem Ipsum Dolor</h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+									eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+									minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+									aliquip ex ea commodo consequat. Duis aute irure dolor in
+									reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+									pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+									culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+					</div>
+
+					<!-- jQuery CDN - Slim version (=without AJAX) -->
+
+					<a href="#" class="back-to-top d-flex align-items-center justify-content-center active"><i
+							class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+					<script src="js/jquery.js"></script>
+					<script src="js/bootstrap.min.js"></script>
+					<!-- Required JS Start-->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+					<script type="text/javascript" src="https://unpkg.com/web3@1.2.11/dist/web3.min.js"></script>
+					<script type="text/javascript" src="https://unpkg.com/web3modal@1.9.0/dist/index.js"></script>
+					<script type="text/javascript"
+						src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"></script>
+					<script type="text/javascript"
+						src="https://unpkg.com/@walletconnect/web3-provider@1.6.6/dist/umd/index.min.js"></script>
+					<script type="text/javascript" src="https://unpkg.com/fortmatic@2.0.6/dist/fortmatic.js"></script>
+					<script type="text/javascript" src="js/wallet-new-new.js"></script>
+					<!--Owl carousel script load-->
+					<script src="js/owl.carousel.min.js"></script>
 
 
+					<script>
+						$(".owl-carousel").owlCarousel({
+							responsiveClass: true,
+							dots: true,
+							dotsContainer: false,
+							loop: true,
+							autoWidth: true,
+							autoplay: true,
+							nav: true,
+							smartSpeed: 1000,
+							items: 3,
+							responsive: {
+								0: {
+									items: 1,
+									margin: 150,
+									center: true
 
-</script>
+								},
 
+								768: {
+									items: 3,
+									margin: 200,
+									center: false
+								},
+
+								992: {
+									items: 3,
+									margin: 35,
+									center: true
+								},
+
+								1200: {
+									items: 3,
+									margin: 250,
+									center: true
+								},
+
+							},
+						});
 
 
 
-
+					</script>
 
 
 
 
 
-<script>
 
 
 
 
-$(document).ready(function() {
-	var s = $(".header_area");
-	var pos = s.position();
-	$(window).scroll(function() {
-		var windowpos = $(window).scrollTop();
-		if(windowpos >= pos.top & windowpos >= 30) {
-			s.addClass("scroll_stick");
-		} else {
-			s.removeClass("scroll_stick");
-		}
-	});
-});
-$('.slider_contact .owl-carousel').owlCarousel({
-	loop: true,
-	margin: 0,
-	autoplay: true,
-	autoplayTimeout: 5000,
-	autoplayHoverPause: true,
-	nav: true,
-	responsive: {
-		0: {
-			items: 1
-		},
-		600: {
-			items: 1
-		},
-		1000: {
-			items: 1
-		}
-	}
-});
-</script>
-<script type="text/javascript">
-/*
-function getTimeRemaining(endtime) {
-	var nda= new Date(endtime);
-	
-	var t = Date.parse(nda) - Date.parse(new Date());
-	var seconds = Math.floor((t / 1000) % 60);
-	var minutes = Math.floor((t / 1000 / 60) % 60);
-	var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-	var days = Math.floor(t / (1000 * 60 * 60 * 24));
-	return {
-		'total': t,
-		'days': days,
-		'hours': hours,
-		'minutes': minutes,
-		'seconds': seconds
-	};
-}
 
-function initializeClock(id, endtime) {
-	var clock = document.getElementById(id);
-	var daysSpan = clock.querySelector('.days');
-	var hoursSpan = clock.querySelector('.hours');
-	var minutesSpan = clock.querySelector('.minutes');
-	var secondsSpan = clock.querySelector('.seconds');
+					<script>
 
-	function updateClock() {
-		var t = getTimeRemaining(endtime);
-		daysSpan.innerHTML = t.days;
-		hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-		minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-		secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-		if(t.total <= 0) {
-			clearInterval(timeinterval);
-		}
-	}
-	updateClock();
-	var timeinterval = setInterval(updateClock, 1000);
-}
 
-initializeClock('clockdiv', 'Saturday, February 05, 2022 04:00:00 PM PST');
-*/
-</script>
 
- <!--3d File Load-->               
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-                
-<!--Wow Js File Load-->
-<script src="js/wow.min.js"></script>
-<!--Main js file load-->
-<script src="js/maisn.js"></script>
-<script src="js/main.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
-<script>
-$('.single_work, .single_partners, .col-work-inr').matchHeight();
-</script>
-<!-- Twitter universal website tag code -->
-<script>
-! function(e, t, n, s, u, a) {
-	e.twq || (s = e.twq = function() {
-		s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
-	}, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js', a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
-}(window, document, 'script');
-// Insert Twitter Pixel ID and Standard Event data below
-twq('init', 'o7a3w');
-twq('track', 'PageView');
-</script>
-<!-- End Twitter universal website tag code -->
-<!-- Facebook Pixel Code -->
-<script>
-! function(f, b, e, v, n, t, s) {
-	if(f.fbq) return;
-	n = f.fbq = function() {
-		n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-	};
-	if(!f._fbq) f._fbq = n;
-	n.push = n;
-	n.loaded = !0;
-	n.version = '2.0';
-	n.queue = [];
-	t = b.createElement(e);
-	t.async = !0;
-	t.src = v;
-	s = b.getElementsByTagName(e)[0];
-	s.parentNode.insertBefore(t, s)
-}(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '2764223563882703');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2764223563882703&ev=PageView&noscript=1" /></noscript>
-    
-    
-    
-    
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Popper.JS -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
-      integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Bootstrap JS -->
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
-      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-      crossorigin="anonymous"
-    ></script>
 
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $("#sidebarCollapse").on("click", function () {
-          $("#sidebar").toggleClass("active");
-        });
-      });
-    </script>
-  </body>
+						$(document).ready(function () {
+							var s = $(".header_area");
+							var pos = s.position();
+							$(window).scroll(function () {
+								var windowpos = $(window).scrollTop();
+								if (windowpos >= pos.top & windowpos >= 30) {
+									s.addClass("scroll_stick");
+								} else {
+									s.removeClass("scroll_stick");
+								}
+							});
+						});
+						$('.slider_contact .owl-carousel').owlCarousel({
+							loop: true,
+							margin: 0,
+							autoplay: true,
+							autoplayTimeout: 5000,
+							autoplayHoverPause: true,
+							nav: true,
+							responsive: {
+								0: {
+									items: 1
+								},
+								600: {
+									items: 1
+								},
+								1000: {
+									items: 1
+								}
+							}
+						});
+					</script>
+					<script type="text/javascript">
+						/*
+						function getTimeRemaining(endtime) {
+							var nda= new Date(endtime);
+							
+							var t = Date.parse(nda) - Date.parse(new Date());
+							var seconds = Math.floor((t / 1000) % 60);
+							var minutes = Math.floor((t / 1000 / 60) % 60);
+							var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+							var days = Math.floor(t / (1000 * 60 * 60 * 24));
+							return {
+								'total': t,
+								'days': days,
+								'hours': hours,
+								'minutes': minutes,
+								'seconds': seconds
+							};
+						}
+						
+						function initializeClock(id, endtime) {
+							var clock = document.getElementById(id);
+							var daysSpan = clock.querySelector('.days');
+							var hoursSpan = clock.querySelector('.hours');
+							var minutesSpan = clock.querySelector('.minutes');
+							var secondsSpan = clock.querySelector('.seconds');
+						
+							function updateClock() {
+								var t = getTimeRemaining(endtime);
+								daysSpan.innerHTML = t.days;
+								hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+								minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+								secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+								if(t.total <= 0) {
+									clearInterval(timeinterval);
+								}
+							}
+							updateClock();
+							var timeinterval = setInterval(updateClock, 1000);
+						}
+						
+						initializeClock('clockdiv', 'Saturday, February 05, 2022 04:00:00 PM PST');
+						*/
+					</script>
+
+					<!--3d File Load-->
+					<script type="module"
+						src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+					<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+					<!--Wow Js File Load-->
+					<script src="js/wow.min.js"></script>
+					<!--Main js file load-->
+					<script src="js/maisn.js"></script>
+					<script src="js/main.js"></script>
+					<script type="text/javascript"
+						src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+					<script>
+						$('.single_work, .single_partners, .col-work-inr').matchHeight();
+					</script>
+					<!-- Twitter universal website tag code -->
+					<script>
+						! function (e, t, n, s, u, a) {
+							e.twq || (s = e.twq = function () {
+								s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+							}, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js', a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+						}(window, document, 'script');
+						// Insert Twitter Pixel ID and Standard Event data below
+						twq('init', 'o7a3w');
+						twq('track', 'PageView');
+					</script>
+					<!-- End Twitter universal website tag code -->
+					<!-- Facebook Pixel Code -->
+					<script>
+						! function (f, b, e, v, n, t, s) {
+							if (f.fbq) return;
+							n = f.fbq = function () {
+								n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+							};
+							if (!f._fbq) f._fbq = n;
+							n.push = n;
+							n.loaded = !0;
+							n.version = '2.0';
+							n.queue = [];
+							t = b.createElement(e);
+							t.async = !0;
+							t.src = v;
+							s = b.getElementsByTagName(e)[0];
+							s.parentNode.insertBefore(t, s)
+						}(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+						fbq('init', '2764223563882703');
+						fbq('track', 'PageView');
+					</script>
+					<noscript><img height="1" width="1" style="display:none"
+							src="https://www.facebook.com/tr?id=2764223563882703&ev=PageView&noscript=1" /></noscript>
+
+
+
+
+					<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+						integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+						crossorigin="anonymous"></script>
+					<!-- Popper.JS -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+						integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+						crossorigin="anonymous"></script>
+					<!-- Bootstrap JS -->
+					<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+						integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+						crossorigin="anonymous"></script>
+
+					<script type="text/javascript">
+						$(document).ready(function () {
+							$("#sidebarCollapse").on("click", function () {
+								$("#sidebar").toggleClass("active");
+							});
+						});
+					</script>
+</body>
+
 </html>
