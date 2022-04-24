@@ -4,14 +4,11 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background: #fafafa;
-}
+
 
 p {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
+    font-size: 3em;
     font-weight: 300;
     line-height: 1.7em;
     color: #999;
@@ -24,12 +21,19 @@ a, a:hover, a:focus {
 }
 
 .navbar {
+    
     padding: 15px 10px;
-    background: #fff;
+    background: linear-gradient(45deg, black, #343434e6);
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 300;
+    border-radius: 1rem;
+    max-width: 115rem;
+    
+
 }
 
 .navbar-btn {
@@ -55,9 +59,10 @@ a, a:hover, a:focus {
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #7386D5;
-    color: #fff;
+    background: linear-gradient(45deg, black, #343434e6);
     transition: all 0.3s;
+    border-radius: 2.9rem
+  
 }
 
 #sidebar.active {
